@@ -713,7 +713,7 @@
                                                 <rs-slide
                                                     data-key="rs-1{{$loop->index}}"
                                                     data-title="Slide"
-                                                    data-thumb="upload/slider-1-bg-50x100.jpg"
+                                                    data-thumb="frontend/upload/slider-1-bg-50x100.jpg"
                                                     data-in="o:0;"
                                                     data-out="a:false;"
                                                     data-p2="01 Our Company"
@@ -855,9 +855,7 @@
                                                     <h3 class="gdlr-core-title-item-title gdlr-core-skin-title"
                                                         style="font-size: 28px; font-weight: 600; color: #1b1b1b;">
                                                         <span class="gdlr-core-title-item-left-dot"
-                                                              style="width: 5px; height: 5px; background-color: #d32525; margin-right: 11px;"></span>Easy
-                                                        To Generate
-                                                        <span
+                                                              style="width: 5px; height: 5px; background-color: #d32525; margin-right: 11px;"></span>{{$index_page->block_1[0]['title']}}<span
                                                             class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
                                                     </h3>
                                                 </div>
@@ -869,9 +867,7 @@
                                                 style="padding-bottom: 15px;">
                                                 <div class="gdlr-core-text-box-item-content"
                                                      style="font-size: 18px; font-weight: 400; text-transform: none;">
-                                                    <p>We are a leader in endpoint protection solutions by industry
-                                                        analysts, independent testing organi- zations and security
-                                                        professionals.</p>
+                                                    <p>{{$index_page->block_1[0]['description']}}</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -913,8 +909,7 @@
                                                     <h3 class="gdlr-core-title-item-title gdlr-core-skin-title"
                                                         style="font-size: 28px; font-weight: 600; color: #1b1b1b;">
                                                         <span class="gdlr-core-title-item-left-dot"
-                                                              style="width: 5px; height: 5px; background-color: #d32525; margin-right: 11px;"></span>Easy
-                                                        To Deploy
+                                                              style="width: 5px; height: 5px; background-color: #d32525; margin-right: 11px;"></span>{{$index_page->block_1[1]['title']}}
                                                         <span
                                                             class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
                                                     </h3>
@@ -927,9 +922,7 @@
                                                 style="padding-bottom: 15px;">
                                                 <div class="gdlr-core-text-box-item-content"
                                                      style="font-size: 18px; font-weight: 400; text-transform: none;">
-                                                    <p>We are a leader in endpoint protection solutions by industry
-                                                        analysts, independent testing organi- zations and security
-                                                        professionals.</p>
+                                                    <p>{{$index_page->block_1[1]['description']}}</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -970,8 +963,7 @@
                                                     <h3 class="gdlr-core-title-item-title gdlr-core-skin-title"
                                                         style="font-size: 28px; font-weight: 600; color: #1b1b1b;">
                                                         <span class="gdlr-core-title-item-left-dot"
-                                                              style="width: 5px; height: 5px; background-color: #d32525; margin-right: 11px;"></span>Easy
-                                                        To Operate
+                                                              style="width: 5px; height: 5px; background-color: #d32525; margin-right: 11px;"></span>{{$index_page->block_1[2]['title']}}
                                                         <span
                                                             class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
                                                     </h3>
@@ -984,9 +976,7 @@
                                                 style="padding-bottom: 15px;">
                                                 <div class="gdlr-core-text-box-item-content"
                                                      style="font-size: 18px; font-weight: 400; text-transform: none;">
-                                                    <p>We are a leader in endpoint protection solutions by industry
-                                                        analysts, independent testing organi- zations and security
-                                                        professionals.</p>
+                                                    <p>{{$index_page->block_1[2]['description']}}</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1012,7 +1002,7 @@
                     <div class="gdlr-core-pbf-background-wrap">
                         <div
                             class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js"
-                            style="background-image: url(upload/red000.jpg); background-size: cover; background-position: center;"
+                            style="background-image: url(frontend/upload/red000.jpg); background-size: cover; background-position: center;"
                             data-parallax-speed="0"
                         ></div>
                     </div>
@@ -1042,12 +1032,12 @@
                                                             style="font-size: 15px; font-weight: 500; font-style: normal; letter-spacing: 3px; text-transform: uppercase; color: #ffffff;"
                                                         >
                                                             <span class="gdlr-core-title-item-left-dot"
-                                                                  style="width: 5px; height: 5px; background-color: #ffffff; margin-right: 13px;"></span>Our Expertise
+                                                                  style="width: 5px; height: 5px; background-color: #ffffff; margin-right: 13px;"></span>{{$index_page->block_2_settings['title']}}
                                                         </span>
                                                 <div class="gdlr-core-title-item-title-wrap">
                                                     <h3 class="gdlr-core-title-item-title gdlr-core-skin-title"
                                                         style="font-size: 61px; font-weight: 600; letter-spacing: 0px; text-transform: none; color: #ffffff;">
-                                                        Solution For Business Challenges<span
+                                                        {{$index_page->block_2_settings['subtitle']}}<span
                                                             class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
                                                     </h3>
                                                 </div>
@@ -1072,7 +1062,7 @@
                                     <div class="gdlr-core-pbf-background-wrap">
                                         <div
                                             class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js"
-                                            style="background-image: url(upload/circle00.jpg); background-size: cover; background-position: center;"
+                                            style="background-image: url(frontend/upload/circle00.jpg); background-size: cover; background-position: center;"
                                             data-parallax-speed="0"
                                         ></div>
                                     </div>
@@ -1085,7 +1075,7 @@
                                                 <div
                                                     class="gdlr-core-image-item-wrap gdlr-core-media-image gdlr-core-image-item-style-rectangle"
                                                     style="border-width: 0px; max-width: 62px; margin-top: 30px;">
-                                                    <img src="upload/icon01-2.png" alt="" width="124" height="124"
+                                                    <img src="frontend/upload/icon01-2.png" alt="" width="124" height="124"
                                                          title="icon01"/>
                                                 </div>
                                             </div>
@@ -1149,7 +1139,7 @@
                                     <div class="gdlr-core-pbf-background-wrap">
                                         <div
                                             class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js"
-                                            style="background-image: url(upload/circle00.jpg); background-size: cover; background-position: center;"
+                                            style="background-image: url(frontend/upload/circle00.jpg); background-size: cover; background-position: center;"
                                             data-parallax-speed="0"
                                         ></div>
                                     </div>
@@ -1162,7 +1152,7 @@
                                                 <div
                                                     class="gdlr-core-image-item-wrap gdlr-core-media-image gdlr-core-image-item-style-rectangle"
                                                     style="border-width: 0px; max-width: 62px; margin-top: 30px;">
-                                                    <img src="upload/icon02-1.png" alt="" width="128" height="128"
+                                                    <img src="frontend/upload/icon02-1.png" alt="" width="128" height="128"
                                                          title="icon02"/>
                                                 </div>
                                             </div>
@@ -1226,7 +1216,7 @@
                                     <div class="gdlr-core-pbf-background-wrap">
                                         <div
                                             class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js"
-                                            style="background-image: url(upload/circle00.jpg); background-size: cover; background-position: center;"
+                                            style="background-image: url(frontend/upload/circle00.jpg); background-size: cover; background-position: center;"
                                             data-parallax-speed="0"
                                         ></div>
                                     </div>
@@ -1239,7 +1229,7 @@
                                                 <div
                                                     class="gdlr-core-image-item-wrap gdlr-core-media-image gdlr-core-image-item-style-rectangle"
                                                     style="border-width: 0px; max-width: 62px; margin-top: 30px;">
-                                                    <img src="upload/icon03-1.png" alt="" width="120" height="120"
+                                                    <img src="frontend/upload/icon03-1.png" alt="" width="120" height="120"
                                                          title="icon03"/>
                                                 </div>
                                             </div>
@@ -1304,7 +1294,7 @@
                                     <div class="gdlr-core-pbf-background-wrap" style="background-color: #ffffff;">
                                         <div
                                             class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js"
-                                            style="background-image: url(upload/circle00.jpg); background-size: cover; background-position: center;"
+                                            style="background-image: url(frontend/upload/circle00.jpg); background-size: cover; background-position: center;"
                                             data-parallax-speed="0"
                                         ></div>
                                     </div>
@@ -1317,7 +1307,7 @@
                                                 <div
                                                     class="gdlr-core-image-item-wrap gdlr-core-media-image gdlr-core-image-item-style-rectangle"
                                                     style="border-width: 0px; max-width: 62px; margin-top: 30px;">
-                                                    <img src="upload/icon04.png" alt="" width="118" height="130"
+                                                    <img src="frontend/upload/icon04.png" alt="" width="118" height="130"
                                                          title="icon04"/>
                                                 </div>
                                             </div>
@@ -1382,7 +1372,7 @@
                                     <div class="gdlr-core-pbf-background-wrap" style="background-color: #ffffff;">
                                         <div
                                             class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js"
-                                            style="background-image: url(upload/circle00.jpg); background-size: cover; background-position: center;"
+                                            style="background-image: url(frontend/upload/circle00.jpg); background-size: cover; background-position: center;"
                                             data-parallax-speed="0"
                                         ></div>
                                     </div>
@@ -1395,7 +1385,7 @@
                                                 <div
                                                     class="gdlr-core-image-item-wrap gdlr-core-media-image gdlr-core-image-item-style-rectangle"
                                                     style="border-width: 0px; max-width: 62px; margin-top: 30px;">
-                                                    <img src="upload/icon05.png" alt="" width="128" height="128"
+                                                    <img src="frontend/upload/icon05.png" alt="" width="128" height="128"
                                                          title="icon05"/>
                                                 </div>
                                             </div>
@@ -1460,7 +1450,7 @@
                                     <div class="gdlr-core-pbf-background-wrap" style="background-color: #ffffff;">
                                         <div
                                             class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js"
-                                            style="background-image: url(upload/circle00.jpg); background-size: cover; background-position: center;"
+                                            style="background-image: url(frontend/upload/circle00.jpg); background-size: cover; background-position: center;"
                                             data-parallax-speed="0"
                                         ></div>
                                     </div>
@@ -1473,7 +1463,7 @@
                                                 <div
                                                     class="gdlr-core-image-item-wrap gdlr-core-media-image gdlr-core-image-item-style-rectangle"
                                                     style="border-width: 0px; max-width: 62px; margin-top: 30px;">
-                                                    <img src="upload/icon06.png" alt="" width="128" height="128"
+                                                    <img src="frontend/upload/icon06.png" alt="" width="128" height="128"
                                                          title="icon06"/>
                                                 </div>
                                             </div>
@@ -1536,271 +1526,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="gdlr-core-pbf-wrapper" style="padding: 155px 0px 120px 0px;" id="gdlr-core-wrapper-1">
-                    <div class="gdlr-core-pbf-background-wrap">
-                        <div
-                            class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js"
-                            style="background-image: url(upload/world.jpg); background-size: cover; background-position: center;"
-                            data-parallax-speed="0"
-                        ></div>
-                    </div>
-                    <div class="gdlr-core-pbf-wrapper-content gdlr-core-js">
-                        <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container">
-                            <div class="gdlr-core-pbf-column gdlr-core-column-60 gdlr-core-column-first">
-                                <div class="gdlr-core-pbf-column-content-margin gdlr-core-js">
-                                    <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js">
-                                        <div class="gdlr-core-pbf-element">
-                                            <div
-                                                class="gdlr-core-divider-item gdlr-core-divider-item-normal gdlr-core-item-pdlr gdlr-core-center-align gdlr-core-style-vertical"
-                                                style="margin-bottom: 45px;">
-                                                <div class="gdlr-core-divider-line gdlr-core-skin-divider"
-                                                     style="border-color: #d32525; border-width: 2px; height: 80px;"></div>
-                                            </div>
-                                        </div>
-                                        <div class="gdlr-core-pbf-element">
-                                            <div
-                                                class="gdlr-core-title-item gdlr-core-item-pdb clearfix gdlr-core-center-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr"
-                                                style="padding-bottom: 25px;">
-                                                <div class="gdlr-core-title-item-title-wrap">
-                                                    <h3 class="gdlr-core-title-item-title gdlr-core-skin-title"
-                                                        style="font-size: 47px; font-weight: 700; letter-spacing: 0px; color: #000000;">
-                                                        Get Easy and Fast Protection Against All <span
-                                                            class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
-                                                    </h3>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="gdlr-core-pbf-column gdlr-core-column-60 gdlr-core-column-first"
-                                 id="gdlr-core-column-73015">
-                                <div class="gdlr-core-pbf-column-content-margin gdlr-core-js">
-                                    <div class="gdlr-core-pbf-background-wrap"></div>
-                                    <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js"
-                                         style="max-width: 1000px;">
-                                        <div class="gdlr-core-pbf-element">
-                                            <div
-                                                class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-center-align">
-                                                <div class="gdlr-core-text-box-item-content"
-                                                     style="font-size: 18px; font-weight: 400; text-transform: none; color: #6c6c6c;">
-                                                    <p>
-                                                        Reduce attacker time with early detection and derailment of
-                                                        in-network threats. Built to cover all attack surfaces and
-                                                        methods of threats, Corzo hides critical data, misdirects
-                                                        attackers away from assets.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="gdlr-core-pbf-element">
-                                            <div
-                                                class="gdlr-core-button-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-center-align">
-                                                <a
-                                                    class="gdlr-core-button gdlr-core-button-gradient gdlr-core-center-align gdlr-core-button-no-border"
-                                                    href="contact.html"
-                                                    style="
-                                                                font-size: 16px;
-                                                                font-weight: 700;
-                                                                letter-spacing: 0px;
-                                                                color: #ffffff;
-                                                                padding: 1px 31px 1px 31px;
-                                                                text-transform: none;
-                                                                margin: 0px 10px 10px;
-                                                                border-radius: 31px;
-                                                                -moz-border-radius: 31px;
-                                                                -webkit-border-radius: 31px;
-                                                                background: #d32525;
-                                                            "
-                                                >
-                                                    <span class="gdlr-core-content">Get Consult</span><i
-                                                        class="gdlr-core-pos-right ion-ios-arrow-thin-right"
-                                                        style="font-size: 31px; color: #ffffff;"></i>
-                                                </a>
-                                                <a
-                                                    class="gdlr-core-button gdlr-core-button-transparent gdlr-core-center-align gdlr-core-button-with-border"
-                                                    href="contact.html"
-                                                    style="
-                                                                font-size: 16px;
-                                                                font-weight: 700;
-                                                                letter-spacing: 0px;
-                                                                color: #d32525;
-                                                                padding: 0px 25px 0px 25px;
-                                                                text-transform: none;
-                                                                border-radius: 31px;
-                                                                -moz-border-radius: 31px;
-                                                                -webkit-border-radius: 31px;
-                                                                border-width: 2px 2px 2px 2px;
-                                                                border-color: #d32525;
-                                                            "
-                                                >
-                                                    <span class="gdlr-core-content">Request Demo</span><i
-                                                        class="gdlr-core-pos-right ion-ios-arrow-thin-right"
-                                                        style="font-size: 31px; color: #d32525;"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="gdlr-core-pbf-element">
-                                <div class="gdlr-core-shape-divider-item" id="gdlr-core-shape-divider-75481">
-                                    <div class="gdlr-core-shape-divider-wrap gdlr-core-pos-bottom gdlr-core-flip">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1000 100"
-                                             preserveaspectratio="none">
-                                            <path d="M0,6V0h1000v100L0,6z"></path>
-                                        </svg>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="gdlr-core-pbf-wrapper" style="padding: 100px 0px 20px 0px;" id="gdlr-core-wrapper-2">
-                    <div class="gdlr-core-pbf-background-wrap"></div>
-                    <div class="gdlr-core-pbf-background-wrap" style="top: 30px;">
-                        <div
-                            class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js"
-                            style="background-image: url(upload/hp3-about-bg-2.png); background-repeat: no-repeat; background-position: top center;"
-                            data-parallax-speed="0"
-                        ></div>
-                    </div>
-                    <div class="gdlr-core-pbf-wrapper-content gdlr-core-js">
-                        <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container">
-                            <div class="gdlr-core-pbf-column gdlr-core-column-30 gdlr-core-column-first"
-                                 id="gdlr-core-column-14797">
-                                <div class="gdlr-core-pbf-column-content-margin gdlr-core-js"
-                                     style="padding: 0px 20px 45px 0px;">
-                                    <div class="gdlr-core-pbf-background-wrap">
-                                        <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js"
-                                             style="background-size: cover; background-position: center;"
-                                             data-parallax-speed="0"></div>
-                                    </div>
-                                    <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js">
-                                        <div class="gdlr-core-pbf-element">
-                                            <div
-                                                class="gdlr-core-image-item gdlr-core-item-pdb gdlr-core-center-align gdlr-core-item-pdlr">
-                                                <div
-                                                    class="gdlr-core-image-item-wrap gdlr-core-media-image gdlr-core-image-item-style-rectangle"
-                                                    style="border-width: 0px;">
-                                                    <img src="upload/hp3-about-2-left.png" alt="" width="560"
-                                                         height="570" title="hp3-about-2-left"/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="gdlr-core-pbf-column gdlr-core-column-30" id="gdlr-core-column-87620">
-                                <div class="gdlr-core-pbf-column-content-margin gdlr-core-js"
-                                     style="padding: 20px 0px 40px 0px;">
-                                    <div class="gdlr-core-pbf-background-wrap"></div>
-                                    <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js">
-                                        <div class="gdlr-core-pbf-element">
-                                            <div
-                                                class="gdlr-core-title-item gdlr-core-item-pdb clearfix gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr">
-                                                        <span
-                                                            class="gdlr-core-title-item-caption gdlr-core-info-font gdlr-core-skin-caption"
-                                                            style="font-size: 14px; font-weight: 500; font-style: normal; letter-spacing: 3px; text-transform: uppercase; color: #d32525;"
-                                                        >
-                                                            <span class="gdlr-core-title-item-left-dot"
-                                                                  style="width: 5px; height: 5px; background-color: #d32525; margin-right: 13px;"></span>Big Name Customers
-                                                        </span>
-                                                <div class="gdlr-core-title-item-title-wrap">
-                                                    <h3 class="gdlr-core-title-item-title gdlr-core-skin-title"
-                                                        style="font-size: 59px; font-weight: 700; text-transform: none; color: #090909;">
-                                                        Why Customers Choose Us<span
-                                                            class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
-                                                    </h3>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="gdlr-core-pbf-element">
-                                            <div
-                                                class="gdlr-core-accordion-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-accordion-style-icon gdlr-core-icon-pos-left gdlr-core-with-divider">
-                                                <div class="gdlr-core-accordion-item-tab clearfix gdlr-core-active">
-                                                    <div
-                                                        class="gdlr-core-accordion-item-icon gdlr-core-js gdlr-core-skin-icon"></div>
-                                                    <div class="gdlr-core-accordion-item-content-wrapper">
-                                                        <h4 class="gdlr-core-accordion-item-title gdlr-core-js"
-                                                            style="font-size: 26px; font-weight: 600; letter-spacing: 0px; text-transform: none;">
-                                                            Premium services and beyond your expectation
-                                                        </h4>
-                                                        <div class="gdlr-core-accordion-item-content">
-                                                            <p>
-                                                                A wonderful serenity has taken possession of my entire
-                                                                soul, like these sweet mornings of spring which I enjoy
-                                                                with my whole heart. I am alone, and feel the charm of
-                                                                existence in this spot, which was created for the bliss.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="gdlr-core-accordion-item-tab clearfix">
-                                                    <div
-                                                        class="gdlr-core-accordion-item-icon gdlr-core-js gdlr-core-skin-icon"></div>
-                                                    <div class="gdlr-core-accordion-item-content-wrapper">
-                                                        <h4 class="gdlr-core-accordion-item-title gdlr-core-js"
-                                                            style="font-size: 26px; font-weight: 600; letter-spacing: 0px; text-transform: none;">
-                                                            World class cyber security tech
-                                                        </h4>
-                                                        <div class="gdlr-core-accordion-item-content">
-                                                            <p>
-                                                                A wonderful serenity has taken possession of my entire
-                                                                soul, like these sweet mornings of spring which I enjoy
-                                                                with my whole heart. I am alone, and feel the charm of
-                                                                existence in this spot, which was created for the bliss.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="gdlr-core-accordion-item-tab clearfix">
-                                                    <div
-                                                        class="gdlr-core-accordion-item-icon gdlr-core-js gdlr-core-skin-icon"></div>
-                                                    <div class="gdlr-core-accordion-item-content-wrapper">
-                                                        <h4 class="gdlr-core-accordion-item-title gdlr-core-js"
-                                                            style="font-size: 26px; font-weight: 600; letter-spacing: 0px; text-transform: none;">
-                                                            Low maintenance required</h4>
-                                                        <div class="gdlr-core-accordion-item-content">
-                                                            <p>
-                                                                A wonderful serenity has taken possession of my entire
-                                                                soul, like these sweet mornings of spring which I enjoy
-                                                                with my whole heart. I am alone, and feel the charm of
-                                                                existence in this spot, which was created for the bliss.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="gdlr-core-accordion-item-tab clearfix">
-                                                    <div
-                                                        class="gdlr-core-accordion-item-icon gdlr-core-js gdlr-core-skin-icon"></div>
-                                                    <div class="gdlr-core-accordion-item-content-wrapper">
-                                                        <h4 class="gdlr-core-accordion-item-title gdlr-core-js"
-                                                            style="font-size: 26px; font-weight: 600; letter-spacing: 0px; text-transform: none;">
-                                                            Quick alert with auto action</h4>
-                                                        <div class="gdlr-core-accordion-item-content">
-                                                            <p>
-                                                                A wonderful serenity has taken possession of my entire
-                                                                soul, like these sweet mornings of spring which I enjoy
-                                                                with my whole heart. I am alone, and feel the charm of
-                                                                existence in this spot, which was created for the bliss.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 <div class="gdlr-core-pbf-wrapper" style="padding: 10px 0px 30px 0px;">
                     <div class="gdlr-core-pbf-background-wrap">
                         <div
                             class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js"
-                            style="background-image: url(upload/hp3-port-bg-1.jpg); background-repeat: no-repeat; background-position: top center;"
+                            style="background-image: url(frontend/upload/hp3-port-bg-1.jpg); background-repeat: no-repeat; background-position: top center;"
                             data-parallax-speed="0"
                         ></div>
                     </div>
@@ -1829,12 +1559,12 @@
                                                             style="font-size: 14px; font-weight: 500; font-style: normal; letter-spacing: 3px; text-transform: uppercase; color: #d32525;"
                                                         >
                                                             <span class="gdlr-core-title-item-left-dot"
-                                                                  style="width: 5px; height: 5px; background-color: #d32525; margin-right: 13px;"></span>How we helped customers
+                                                                  style="width: 5px; height: 5px; background-color: #d32525; margin-right: 13px;"></span>{{$index_page->block_4_settings['subtitle']}}
                                                         </span>
                                                 <div class="gdlr-core-title-item-title-wrap">
                                                     <h3 class="gdlr-core-title-item-title gdlr-core-skin-title"
                                                         style="font-size: 61px; font-weight: 700; letter-spacing: 0px; text-transform: none; color: #090909;">
-                                                        From Case Studies<span
+                                                        {{$index_page->block_4_settings['title']}}<span
                                                             class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
                                                     </h3>
                                                 </div>
@@ -1868,7 +1598,7 @@
                                                         class="gdlr-core-portfolio-thumbnail gdlr-core-media-image gdlr-core-style-custom">
                                                         <div
                                                             class="gdlr-core-portfolio-thumbnail-image-wrap gdlr-core-zoom-on-hover">
-                                                            <img src="upload/Meeting01-600x800.jpg" alt="" width="600"
+                                                            <img src="frontend/upload/Meeting01-600x800.jpg" alt="" width="600"
                                                                  height="800" title="Meeting01"/>
                                                             <span
                                                                 class="gdlr-core-image-overlay gdlr-core-portfolio-overlay gdlr-core-custom gdlr-core-no-hover"
@@ -1892,7 +1622,7 @@
                                                         class="gdlr-core-portfolio-thumbnail gdlr-core-media-image gdlr-core-style-custom">
                                                         <div
                                                             class="gdlr-core-portfolio-thumbnail-image-wrap gdlr-core-zoom-on-hover">
-                                                            <img src="upload/meeting02-600x800.jpg" alt="" width="600"
+                                                            <img src="frontend/upload/meeting02-600x800.jpg" alt="" width="600"
                                                                  height="800" title="meeting02"/>
                                                             <span
                                                                 class="gdlr-core-image-overlay gdlr-core-portfolio-overlay gdlr-core-custom gdlr-core-no-hover"
@@ -1916,7 +1646,7 @@
                                                         class="gdlr-core-portfolio-thumbnail gdlr-core-media-image gdlr-core-style-custom">
                                                         <div
                                                             class="gdlr-core-portfolio-thumbnail-image-wrap gdlr-core-zoom-on-hover">
-                                                            <img src="upload/meeting03-600x800.jpg" alt="" width="600"
+                                                            <img src="frontend/upload/meeting03-600x800.jpg" alt="" width="600"
                                                                  height="800" title="meeting03"/>
                                                             <span
                                                                 class="gdlr-core-image-overlay gdlr-core-portfolio-overlay gdlr-core-custom gdlr-core-no-hover"
@@ -1940,7 +1670,7 @@
                                                         class="gdlr-core-portfolio-thumbnail gdlr-core-media-image gdlr-core-style-custom">
                                                         <div
                                                             class="gdlr-core-portfolio-thumbnail-image-wrap gdlr-core-zoom-on-hover">
-                                                            <img src="upload/meeting04-600x800.jpg" alt="" width="600"
+                                                            <img src="frontend/upload/meeting04-600x800.jpg" alt="" width="600"
                                                                  height="800" title="meeting04"/>
                                                             <span
                                                                 class="gdlr-core-image-overlay gdlr-core-portfolio-overlay gdlr-core-custom gdlr-core-no-hover"
@@ -1964,7 +1694,7 @@
                                                         class="gdlr-core-portfolio-thumbnail gdlr-core-media-image gdlr-core-style-custom">
                                                         <div
                                                             class="gdlr-core-portfolio-thumbnail-image-wrap gdlr-core-zoom-on-hover">
-                                                            <img src="upload/N01-600x800.jpg" alt="" width="600"
+                                                            <img src="frontend/upload/N01-600x800.jpg" alt="" width="600"
                                                                  height="800" title="N01"/>
                                                             <span
                                                                 class="gdlr-core-image-overlay gdlr-core-portfolio-overlay gdlr-core-custom gdlr-core-no-hover"
@@ -1988,7 +1718,7 @@
                                                         class="gdlr-core-portfolio-thumbnail gdlr-core-media-image gdlr-core-style-custom">
                                                         <div
                                                             class="gdlr-core-portfolio-thumbnail-image-wrap gdlr-core-zoom-on-hover">
-                                                            <img src="upload/N02-600x800.jpg" alt="" width="600"
+                                                            <img src="frontend/upload/N02-600x800.jpg" alt="" width="600"
                                                                  height="800" title="N02"/>
                                                             <span
                                                                 class="gdlr-core-image-overlay gdlr-core-portfolio-overlay gdlr-core-custom gdlr-core-no-hover"
@@ -2012,7 +1742,7 @@
                                                         class="gdlr-core-portfolio-thumbnail gdlr-core-media-image gdlr-core-style-custom">
                                                         <div
                                                             class="gdlr-core-portfolio-thumbnail-image-wrap gdlr-core-zoom-on-hover">
-                                                            <img src="upload/N04-600x800.jpg" alt="" width="600"
+                                                            <img src="frontend/upload/N04-600x800.jpg" alt="" width="600"
                                                                  height="800" title="N04"/>
                                                             <span
                                                                 class="gdlr-core-image-overlay gdlr-core-portfolio-overlay gdlr-core-custom gdlr-core-no-hover"
@@ -2037,6 +1767,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="gdlr-core-pbf-wrapper" style="padding: 125px 0px 105px 0px;" id="gdlr-core-wrapper-3">
                     <div class="gdlr-core-pbf-background-wrap"></div>
                     <div class="gdlr-core-pbf-wrapper-content gdlr-core-js">
@@ -2053,7 +1784,7 @@
                                                 <div
                                                     class="gdlr-core-image-item-wrap gdlr-core-media-image gdlr-core-image-item-style-rectangle"
                                                     style="border-width: 0px; max-width: 150px;">
-                                                    <img src="upload/icon01.png" alt="" width="280" height="140"
+                                                    <img src="frontend/upload/icon01.png" alt="" width="280" height="140"
                                                          title="icon01"/>
                                                 </div>
                                             </div>
@@ -2096,7 +1827,7 @@
                                                 <div
                                                     class="gdlr-core-image-item-wrap gdlr-core-media-image gdlr-core-image-item-style-rectangle"
                                                     style="border-width: 0px; max-width: 150px;">
-                                                    <img src="upload/icon02.png" alt="" width="280" height="140"
+                                                    <img src="frontend/upload/icon02.png" alt="" width="280" height="140"
                                                          title="icon02"/>
                                                 </div>
                                             </div>
@@ -2139,7 +1870,7 @@
                                                 <div
                                                     class="gdlr-core-image-item-wrap gdlr-core-media-image gdlr-core-image-item-style-rectangle"
                                                     style="border-width: 0px; max-width: 150px;">
-                                                    <img src="upload/icon03.png" alt="" width="280" height="140"
+                                                    <img src="frontend/upload/icon03.png" alt="" width="280" height="140"
                                                          title="icon03"/>
                                                 </div>
                                             </div>
@@ -2182,7 +1913,7 @@
                                                 <div
                                                     class="gdlr-core-image-item-wrap gdlr-core-media-image gdlr-core-image-item-style-rectangle"
                                                     style="border-width: 0px; max-width: 150px;">
-                                                    <img src="upload/icon04.png" alt="" width="280" height="140"
+                                                    <img src="frontend/upload/icon04.png" alt="" width="280" height="140"
                                                          title="icon04"/>
                                                 </div>
                                             </div>
@@ -2225,7 +1956,7 @@
                                                 <div
                                                     class="gdlr-core-image-item-wrap gdlr-core-media-image gdlr-core-image-item-style-rectangle"
                                                     style="border-width: 0px; max-width: 150px;">
-                                                    <img src="upload/icon05.png" alt="" width="271" height="140"
+                                                    <img src="frontend/upload/icon05.png" alt="" width="271" height="140"
                                                          title="icon05"/>
                                                 </div>
                                             </div>
@@ -2267,7 +1998,7 @@
                                                 <div
                                                     class="gdlr-core-image-item-wrap gdlr-core-media-image gdlr-core-image-item-style-rectangle"
                                                     style="border-width: 0px; max-width: 150px;">
-                                                    <img src="upload/icon06.png" alt="" width="280" height="140"
+                                                    <img src="frontend/upload/icon06.png" alt="" width="280" height="140"
                                                          title="icon06"/>
                                                 </div>
                                             </div>
@@ -2302,12 +2033,13 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="gdlr-core-pbf-wrapper" style="padding: 180px 0px 200px 0px;" data-skin="NUMBER HP3"
                      id="gdlr-core-wrapper-4">
                     <div class="gdlr-core-pbf-background-wrap">
                         <div
                             class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js"
-                            style="background-image: url(upload/bg-number.jpg); background-size: cover; background-position: center;"
+                            style="background-image: url(frontend/upload/bg-number.jpg); background-size: cover; background-position: center;"
                             data-parallax-speed="0"
                         ></div>
                     </div>
@@ -2349,7 +2081,7 @@
                                                     style="font-size: 57px; font-weight: 600; margin-bottom: 0px;">
                                                     <span class="gdlr-core-counter-item-count gdlr-core-js"
                                                           data-duration="" data-counter-start="0"
-                                                          data-counter-end="14000">0</span>
+                                                          data-counter-end="{{$index_page->block_5['counter_1']}}">0</span>
                                                     <span class="gdlr-core-counter-item-suffix">+</span>
                                                 </div>
                                             </div>
@@ -2362,7 +2094,7 @@
                                                             class="gdlr-core-title-item-caption gdlr-core-info-font gdlr-core-skin-caption"
                                                             style="font-size: 14px; font-weight: 500; font-style: normal; letter-spacing: 3px; text-transform: uppercase; color: #d32525; margin-bottom: 0px;"
                                                         >
-                                                            All Time Clients
+                                                            {{$index_page->block_5['counter_1_text']}}
                                                         </span>
                                             </div>
                                         </div>
@@ -2407,7 +2139,7 @@
                                                     style="font-size: 57px; font-weight: 600; margin-bottom: 0px;">
                                                     <span class="gdlr-core-counter-item-count gdlr-core-js"
                                                           data-duration="" data-counter-start="0"
-                                                          data-counter-end="1000">0</span>
+                                                          data-counter-end="{{$index_page->block_5['counter_2']}}">0</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -2419,7 +2151,7 @@
                                                             class="gdlr-core-title-item-caption gdlr-core-info-font gdlr-core-skin-caption"
                                                             style="font-size: 14px; font-weight: 500; font-style: normal; letter-spacing: 3px; text-transform: uppercase; color: #d32525; margin-bottom: 0px;"
                                                         >
-                                                            Clients in this year
+                                                            {{$index_page->block_5['counter_1_text']}}
                                                         </span>
                                             </div>
                                         </div>
@@ -2462,8 +2194,8 @@
                                                     class="gdlr-core-counter-item-number gdlr-core-skin-title gdlr-core-title-font"
                                                     style="font-size: 57px; font-weight: 600; margin-bottom: 0px;">
                                                     <span class="gdlr-core-counter-item-count gdlr-core-js"
-                                                          data-duration="" data-counter-start="0" data-counter-end="10">0</span><span
-                                                        class="gdlr-core-counter-item-suffix">BN+</span>
+                                                          data-duration="" data-counter-start="0" data-counter-end="{{$index_page->block_5['counter_3']}}">0</span><span
+                                                        class="gdlr-core-counter-item-suffix">+</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -2475,7 +2207,7 @@
                                                             class="gdlr-core-title-item-caption gdlr-core-info-font gdlr-core-skin-caption"
                                                             style="font-size: 14px; font-weight: 500; font-style: normal; letter-spacing: 3px; text-transform: uppercase; color: #d32525; margin-bottom: 0px;"
                                                         >
-                                                            Attacks Blocked
+                                                            {{$index_page->block_5['counter_3_text']}}
                                                         </span>
                                             </div>
                                         </div>
@@ -2517,7 +2249,7 @@
                                                     class="gdlr-core-counter-item-number gdlr-core-skin-title gdlr-core-title-font"
                                                     style="font-size: 57px; font-weight: 600; margin-bottom: 0px;">
                                                     <span class="gdlr-core-counter-item-count gdlr-core-js"
-                                                          data-duration="" data-counter-start="0" data-counter-end="30">0</span><span
+                                                          data-duration="" data-counter-start="0" data-counter-end="{{$index_page->block_5['counter_4']}}">0</span><span
                                                         class="gdlr-core-counter-item-suffix">+</span>
                                                 </div>
                                             </div>
@@ -2530,7 +2262,7 @@
                                                             class="gdlr-core-title-item-caption gdlr-core-info-font gdlr-core-skin-caption"
                                                             style="font-size: 14px; font-weight: 500; font-style: normal; letter-spacing: 3px; text-transform: uppercase; color: #d32525; margin-bottom: 0px;"
                                                         >
-                                                            Security Modules
+                                                            {{$index_page->block_5['counter_4_text']}}
                                                         </span>
                                             </div>
                                         </div>
@@ -2562,530 +2294,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="gdlr-core-pbf-wrapper" style="padding: 50px 0px 0px 0px;">
+
+
+                <div class="gdlr-core-pbf-wrapper" style="padding: 155px 0px 120px 0px;" id="gdlr-core-wrapper-1">
                     <div class="gdlr-core-pbf-background-wrap">
                         <div
                             class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js"
-                            style="background-image: url(upload/hp3-testimonial-bg-1.jpg); background-repeat: no-repeat; background-position: top center;"
-                            data-parallax-speed="0"
-                        ></div>
-                    </div>
-                    <div class="gdlr-core-pbf-wrapper-content gdlr-core-js">
-                        <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container">
-                            <div class="gdlr-core-pbf-wrapper-container-inner gdlr-core-item-mglr clearfix"
-                                 style="margin: 0px 0px -130px 0px; width: 100%;">
-                                <div class="gdlr-core-pbf-column gdlr-core-column-60 gdlr-core-column-first"
-                                     id="gdlr-core-column-75668">
-                                    <div class="gdlr-core-pbf-column-content-margin gdlr-core-js"
-                                         style="padding-bottom: 65px;">
-                                        <div class="gdlr-core-pbf-background-wrap"></div>
-                                        <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js">
-                                            <div class="gdlr-core-pbf-element">
-                                                <div
-                                                    class="gdlr-core-divider-item gdlr-core-divider-item-normal gdlr-core-item-pdlr gdlr-core-center-align gdlr-core-style-vertical"
-                                                    style="margin-bottom: 45px;">
-                                                    <div class="gdlr-core-divider-line gdlr-core-skin-divider"
-                                                         style="border-color: #d32525; border-width: 2px; height: 80px;"></div>
-                                                </div>
-                                            </div>
-                                            <div class="gdlr-core-pbf-element">
-                                                <div
-                                                    class="gdlr-core-title-item gdlr-core-item-pdb clearfix gdlr-core-center-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr"
-                                                    style="padding-bottom: 0px;">
-                                                            <span
-                                                                class="gdlr-core-title-item-caption gdlr-core-info-font gdlr-core-skin-caption"
-                                                                style="font-size: 14px; font-weight: 500; font-style: normal; letter-spacing: 3px; text-transform: uppercase; color: #d32525; margin-bottom: 0px;"
-                                                            >
-                                                                <span class="gdlr-core-title-item-left-dot"
-                                                                      style="width: 5px; height: 5px; background-color: #d32525; margin-right: 13px;"></span>Testimonial
-                                                            </span>
-                                                    <div class="gdlr-core-title-item-title-wrap">
-                                                        <h3 class="gdlr-core-title-item-title gdlr-core-skin-title"
-                                                            style="font-size: 61px; font-weight: 400; letter-spacing: 0px; text-transform: none; color: #090909;">
-                                                            What They Say About US<span
-                                                                class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
-                                                        </h3>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="gdlr-core-pbf-column gdlr-core-column-60 gdlr-core-column-first"
-                                     id="gdlr-core-column-12948" style="z-index: 3;">
-                                    <div class="gdlr-core-pbf-column-content-margin gdlr-core-js"
-                                         style="margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px;">
-                                        <div class="gdlr-core-pbf-background-wrap"></div>
-                                        <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js">
-                                            <div class="gdlr-core-pbf-element">
-                                                <div
-                                                    class="gdlr-core-testimonial-item gdlr-core-item-pdb clearfix gdlr-core-testimonial-style-left gdlr-core-item-pdlr"
-                                                    style="padding-bottom: 0px;" id="gdlr-core-testimonial-25271">
-                                                    <div
-                                                        class="gdlr-core-flexslider flexslider gdlr-core-js-2 gdlr-core-bullet-style-cylinder"
-                                                        data-type="carousel"
-                                                        data-column="2"
-                                                        data-move="1"
-                                                        data-nav="bullet"
-                                                        data-controls-top-margin="60px"
-                                                    >
-                                                        <ul class="slides">
-                                                            <li class="gdlr-core-item-mglr">
-                                                                <div class="gdlr-core-testimonial clearfix">
-                                                                    <div
-                                                                        class="gdlr-core-testimonial-frame clearfix gdlr-core-skin-e-background gdlr-core-outer-frame-element"
-                                                                        style="
-                                                                                    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.07);
-                                                                                    -moz-box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.07);
-                                                                                    -webkit-box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.07);
-                                                                                "
-                                                                    >
-                                                                        <div class="gdlr-core-testimonial-frame-border"
-                                                                             style="border-right-width: 3px; border-color: #d32525;"></div>
-                                                                        <div class="gdlr-core-testimonial-content-wrap">
-                                                                            <div
-                                                                                class="gdlr-core-testimonial-content gdlr-core-info-font gdlr-core-skin-content"
-                                                                                style="font-size: 20px; font-style: normal; font-weight: 400; letter-spacing: 0px; color: #424242; padding-bottom: 10px;"
-                                                                            >
-                                                                                <p>
-                                                                                    Far far away, behind the word
-                                                                                    mountains, far from the countries
-                                                                                    Vokalia and Consonantia, there live
-                                                                                    the blind texts. Separated they live
-                                                                                    in
-                                                                                    Bookmarksgrove right at the coast of
-                                                                                    the Semantics.
-                                                                                </p>
-                                                                            </div>
-                                                                            <div
-                                                                                class="gdlr-core-testimonial-author-wrap clearfix">
-                                                                                <div
-                                                                                    class="gdlr-core-testimonial-author-image gdlr-core-media-image">
-                                                                                    <img
-                                                                                        src="upload/portrait05-150x150.jpg"
-                                                                                        alt="" width="150" height="150"
-                                                                                        title="portrait05"/>
-                                                                                </div>
-                                                                                <div
-                                                                                    class="gdlr-core-testimonial-author-content">
-                                                                                    <div
-                                                                                        class="gdlr-core-testimonial-title gdlr-core-title-font gdlr-core-skin-title"
-                                                                                        style="color: #d32525; font-size: 18px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase;"
-                                                                                    >
-                                                                                        John Smith
-                                                                                    </div>
-                                                                                    <div
-                                                                                        class="gdlr-core-testimonial-position gdlr-core-info-font gdlr-core-skin-caption"
-                                                                                        style="color: #848484; font-size: 15px; font-style: normal; font-weight: 500;"
-                                                                                    >
-                                                                                        CEO, Apple
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </li>
-                                                            <li class="gdlr-core-item-mglr">
-                                                                <div class="gdlr-core-testimonial clearfix">
-                                                                    <div
-                                                                        class="gdlr-core-testimonial-frame clearfix gdlr-core-skin-e-background gdlr-core-outer-frame-element"
-                                                                        style="
-                                                                                    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.07);
-                                                                                    -moz-box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.07);
-                                                                                    -webkit-box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.07);
-                                                                                "
-                                                                    >
-                                                                        <div class="gdlr-core-testimonial-frame-border"
-                                                                             style="border-right-width: 3px; border-color: #d32525;"></div>
-                                                                        <div class="gdlr-core-testimonial-content-wrap">
-                                                                            <div
-                                                                                class="gdlr-core-testimonial-content gdlr-core-info-font gdlr-core-skin-content"
-                                                                                style="font-size: 20px; font-style: normal; font-weight: 400; letter-spacing: 0px; color: #424242; padding-bottom: 10px;"
-                                                                            >
-                                                                                <p>
-                                                                                    Far far away, behind the word
-                                                                                    mountains, far from the countries
-                                                                                    Vokalia and Consonantia, there live
-                                                                                    the blind texts. Separated they live
-                                                                                    in
-                                                                                    Bookmarksgrove right at the coast of
-                                                                                    the Semantics.
-                                                                                </p>
-                                                                            </div>
-                                                                            <div
-                                                                                class="gdlr-core-testimonial-author-wrap clearfix">
-                                                                                <div
-                                                                                    class="gdlr-core-testimonial-author-image gdlr-core-media-image">
-                                                                                    <img
-                                                                                        src="upload/portrait03-150x150.jpg"
-                                                                                        alt="" width="150" height="150"
-                                                                                        title="portrait03"/>
-                                                                                </div>
-                                                                                <div
-                                                                                    class="gdlr-core-testimonial-author-content">
-                                                                                    <div
-                                                                                        class="gdlr-core-testimonial-title gdlr-core-title-font gdlr-core-skin-title"
-                                                                                        style="color: #d32525; font-size: 18px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase;"
-                                                                                    >
-                                                                                        Chloe Lopez
-                                                                                    </div>
-                                                                                    <div
-                                                                                        class="gdlr-core-testimonial-position gdlr-core-info-font gdlr-core-skin-caption"
-                                                                                        style="color: #848484; font-size: 15px; font-style: normal; font-weight: 500;"
-                                                                                    >
-                                                                                        CEO, Apple
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </li>
-                                                            <li class="gdlr-core-item-mglr">
-                                                                <div class="gdlr-core-testimonial clearfix">
-                                                                    <div
-                                                                        class="gdlr-core-testimonial-frame clearfix gdlr-core-skin-e-background gdlr-core-outer-frame-element"
-                                                                        style="
-                                                                                    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.07);
-                                                                                    -moz-box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.07);
-                                                                                    -webkit-box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.07);
-                                                                                "
-                                                                    >
-                                                                        <div class="gdlr-core-testimonial-frame-border"
-                                                                             style="border-right-width: 3px; border-color: #d32525;"></div>
-                                                                        <div class="gdlr-core-testimonial-content-wrap">
-                                                                            <div
-                                                                                class="gdlr-core-testimonial-content gdlr-core-info-font gdlr-core-skin-content"
-                                                                                style="font-size: 20px; font-style: normal; font-weight: 400; letter-spacing: 0px; color: #424242; padding-bottom: 10px;"
-                                                                            >
-                                                                                <p>
-                                                                                    Far far away, behind the word
-                                                                                    mountains, far from the countries
-                                                                                    Vokalia and Consonantia, there live
-                                                                                    the blind texts. Separated they live
-                                                                                    in
-                                                                                    Bookmarksgrove right at the coast of
-                                                                                    the Semantics.
-                                                                                </p>
-                                                                            </div>
-                                                                            <div
-                                                                                class="gdlr-core-testimonial-author-wrap clearfix">
-                                                                                <div
-                                                                                    class="gdlr-core-testimonial-author-image gdlr-core-media-image">
-                                                                                    <img
-                                                                                        src="upload/portrait04-150x150.jpg"
-                                                                                        alt="" width="150" height="150"
-                                                                                        title="portrait04"/>
-                                                                                </div>
-                                                                                <div
-                                                                                    class="gdlr-core-testimonial-author-content">
-                                                                                    <div
-                                                                                        class="gdlr-core-testimonial-title gdlr-core-title-font gdlr-core-skin-title"
-                                                                                        style="color: #d32525; font-size: 18px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase;"
-                                                                                    >
-                                                                                        Aubrey Thomas
-                                                                                    </div>
-                                                                                    <div
-                                                                                        class="gdlr-core-testimonial-position gdlr-core-info-font gdlr-core-skin-caption"
-                                                                                        style="color: #848484; font-size: 15px; font-style: normal; font-weight: 500;"
-                                                                                    >
-                                                                                        CEO, Apple
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </li>
-                                                            <li class="gdlr-core-item-mglr">
-                                                                <div class="gdlr-core-testimonial clearfix">
-                                                                    <div
-                                                                        class="gdlr-core-testimonial-frame clearfix gdlr-core-skin-e-background gdlr-core-outer-frame-element"
-                                                                        style="
-                                                                                    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.07);
-                                                                                    -moz-box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.07);
-                                                                                    -webkit-box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.07);
-                                                                                "
-                                                                    >
-                                                                        <div class="gdlr-core-testimonial-frame-border"
-                                                                             style="border-right-width: 3px; border-color: #d32525;"></div>
-                                                                        <div class="gdlr-core-testimonial-content-wrap">
-                                                                            <div
-                                                                                class="gdlr-core-testimonial-content gdlr-core-info-font gdlr-core-skin-content"
-                                                                                style="font-size: 20px; font-style: normal; font-weight: 400; letter-spacing: 0px; color: #424242; padding-bottom: 10px;"
-                                                                            >
-                                                                                <p>
-                                                                                    Far far away, behind the word
-                                                                                    mountains, far from the countries
-                                                                                    Vokalia and Consonantia, there live
-                                                                                    the blind texts. Separated they live
-                                                                                    in
-                                                                                    Bookmarksgrove right at the coast of
-                                                                                    the Semantics.
-                                                                                </p>
-                                                                            </div>
-                                                                            <div
-                                                                                class="gdlr-core-testimonial-author-wrap clearfix">
-                                                                                <div
-                                                                                    class="gdlr-core-testimonial-author-image gdlr-core-media-image">
-                                                                                    <img
-                                                                                        src="upload/portrait02-150x150.jpg"
-                                                                                        alt="" width="150" height="150"
-                                                                                        title="portrait02"/>
-                                                                                </div>
-                                                                                <div
-                                                                                    class="gdlr-core-testimonial-author-content">
-                                                                                    <div
-                                                                                        class="gdlr-core-testimonial-title gdlr-core-title-font gdlr-core-skin-title"
-                                                                                        style="color: #d32525; font-size: 18px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase;"
-                                                                                    >
-                                                                                        Mason Miller
-                                                                                    </div>
-                                                                                    <div
-                                                                                        class="gdlr-core-testimonial-position gdlr-core-info-font gdlr-core-skin-caption"
-                                                                                        style="color: #848484; font-size: 15px; font-style: normal; font-weight: 500;"
-                                                                                    >
-                                                                                        CEO, Apple
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </li>
-                                                            <li class="gdlr-core-item-mglr">
-                                                                <div class="gdlr-core-testimonial clearfix">
-                                                                    <div
-                                                                        class="gdlr-core-testimonial-frame clearfix gdlr-core-skin-e-background gdlr-core-outer-frame-element"
-                                                                        style="
-                                                                                    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.07);
-                                                                                    -moz-box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.07);
-                                                                                    -webkit-box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.07);
-                                                                                "
-                                                                    >
-                                                                        <div class="gdlr-core-testimonial-frame-border"
-                                                                             style="border-right-width: 3px; border-color: #d32525;"></div>
-                                                                        <div class="gdlr-core-testimonial-content-wrap">
-                                                                            <div
-                                                                                class="gdlr-core-testimonial-content gdlr-core-info-font gdlr-core-skin-content"
-                                                                                style="font-size: 20px; font-style: normal; font-weight: 400; letter-spacing: 0px; color: #424242; padding-bottom: 10px;"
-                                                                            >
-                                                                                <p>
-                                                                                    Far far away, behind the word
-                                                                                    mountains, far from the countries
-                                                                                    Vokalia and Consonantia, there live
-                                                                                    the blind texts. Separated they live
-                                                                                    in
-                                                                                    Bookmarksgrove right at the coast of
-                                                                                    the Semantics.
-                                                                                </p>
-                                                                            </div>
-                                                                            <div
-                                                                                class="gdlr-core-testimonial-author-wrap clearfix">
-                                                                                <div
-                                                                                    class="gdlr-core-testimonial-author-image gdlr-core-media-image">
-                                                                                    <img
-                                                                                        src="upload/portrait01-150x150.jpg"
-                                                                                        alt="" width="150" height="150"
-                                                                                        title="portrait01"/>
-                                                                                </div>
-                                                                                <div
-                                                                                    class="gdlr-core-testimonial-author-content">
-                                                                                    <div
-                                                                                        class="gdlr-core-testimonial-title gdlr-core-title-font gdlr-core-skin-title"
-                                                                                        style="color: #d32525; font-size: 18px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase;"
-                                                                                    >
-                                                                                        Violet Lee
-                                                                                    </div>
-                                                                                    <div
-                                                                                        class="gdlr-core-testimonial-position gdlr-core-info-font gdlr-core-skin-caption"
-                                                                                        style="color: #848484; font-size: 15px; font-style: normal; font-weight: 500;"
-                                                                                    >
-                                                                                        CEO, Apple
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="gdlr-core-pbf-wrapper" style="padding: 255px 0px 30px 0px;" id="gdlr-core-wrapper-5">
-                    <div class="gdlr-core-pbf-background-wrap"></div>
-                    <div class="gdlr-core-pbf-background-wrap" style="top: 240px;">
-                        <div
-                            class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js"
-                            style="background-image: url(upload/hp3-about-bg-1.jpg); background-repeat: no-repeat; background-position: top center;"
-                            data-parallax-speed="0"
-                        ></div>
-                    </div>
-                    <div class="gdlr-core-pbf-wrapper-content gdlr-core-js">
-                        <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container">
-                            <div class="gdlr-core-pbf-column gdlr-core-column-30 gdlr-core-column-first">
-                                <div class="gdlr-core-pbf-column-content-margin gdlr-core-js">
-                                    <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js">
-                                        <div class="gdlr-core-pbf-element">
-                                            <div
-                                                class="gdlr-core-title-item gdlr-core-item-pdb clearfix gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr"
-                                                style="padding-bottom: 15px;">
-                                                        <span
-                                                            class="gdlr-core-title-item-caption gdlr-core-info-font gdlr-core-skin-caption"
-                                                            style="font-size: 14px; font-weight: 500; font-style: normal; letter-spacing: 3px; text-transform: uppercase; color: #d32525;"
-                                                        >
-                                                            <span class="gdlr-core-title-item-left-dot"
-                                                                  style="width: 5px; height: 5px; background-color: #d32525; margin-right: 11px;"></span>Even more secured
-                                                        </span>
-                                                <div class="gdlr-core-title-item-title-wrap">
-                                                    <h3 class="gdlr-core-title-item-title gdlr-core-skin-title"
-                                                        style="font-size: 61px; font-weight: 700; letter-spacing: 0px; text-transform: none; color: #090909;">
-                                                        Empower Your Network<span
-                                                            class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
-                                                    </h3>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="gdlr-core-pbf-element">
-                                            <div
-                                                class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align gdlr-core-no-p-space"
-                                                style="padding-bottom: 25px;">
-                                                <div class="gdlr-core-text-box-item-content"
-                                                     style="font-size: 18px; font-weight: 400; letter-spacing: 0px; text-transform: none; color: #090909;">
-                                                    <p>A wonderful serenity has taken possession of my entire soul, like
-                                                        these sweet mornings of spring which I enjoy with my whole
-                                                        heart.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="gdlr-core-pbf-column gdlr-core-column-30">
-                                <div class="gdlr-core-pbf-column-content-margin gdlr-core-js">
-                                    <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js"></div>
-                                </div>
-                            </div>
-                            <div class="gdlr-core-pbf-column gdlr-core-column-30 gdlr-core-column-first"
-                                 id="gdlr-core-column-22961">
-                                <div
-                                    class="gdlr-core-pbf-column-content-margin gdlr-core-js gdlr-core-move-up-with-shadow"
-                                    style="margin: 12px 0px 12px 20px; padding: 22px 0px 15px 0px; border-radius: 0px 0px 0px 0px; -moz-border-radius: 0px 0px 0px 0px; -webkit-border-radius: 0px 0px 0px 0px;"
-                                >
-                                    <div
-                                        class="gdlr-core-pbf-background-wrap"
-                                        style="
-                                                    background-color: #ffffff;
-                                                    border-radius: 0px 0px 0px 0px;
-                                                    -moz-border-radius: 0px 0px 0px 0px;
-                                                    -webkit-border-radius: 0px 0px 0px 0px;
-                                                    border-width: 1px 1px 1px 1px;
-                                                    border-color: #dfdfdf;
-                                                    border-style: solid;
-                                                "
-                                    ></div>
-                                    <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js">
-                                        <div class="gdlr-core-pbf-element">
-                                            <div
-                                                class="gdlr-core-column-service-item gdlr-core-item-pdb gdlr-core-left-align gdlr-core-column-service-icon-left gdlr-core-no-caption gdlr-core-item-pdlr"
-                                                style="padding-bottom: 0px;">
-                                                <div class="gdlr-core-column-service-media gdlr-core-media-image"
-                                                     style="margin-top: 10px; margin-left: 10px; max-width: 45px;">
-                                                    <img src="upload/logo1.png" alt="" width="150" height="150"
-                                                         title="logo1"/>
-                                                </div>
-                                                <div class="gdlr-core-column-service-content-wrapper">
-                                                    <div class="gdlr-core-column-service-title-wrap"
-                                                         style="margin-bottom: 5px;">
-                                                        <h3 class="gdlr-core-column-service-title gdlr-core-skin-title"
-                                                            style="font-size: 26px; font-weight: 600; text-transform: none;">
-                                                            World class cyber security tech</h3>
-                                                    </div>
-                                                    <div class="gdlr-core-column-service-content"
-                                                         style="font-size: 18px; font-weight: 400; text-transform: none;">
-                                                        <p>Reduce attacker time with early detection and derailment of
-                                                            in-network threats. Built to cover all attack surfaces.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="gdlr-core-pbf-column gdlr-core-column-30">
-                                <div class="gdlr-core-pbf-column-content-margin gdlr-core-js">
-                                    <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js"></div>
-                                </div>
-                            </div>
-                            <div class="gdlr-core-pbf-column gdlr-core-column-30 gdlr-core-column-first"
-                                 id="gdlr-core-column-46657">
-                                <div
-                                    class="gdlr-core-pbf-column-content-margin gdlr-core-js gdlr-core-move-up-with-shadow"
-                                    style="margin: 12px 0px 12px 20px; padding: 22px 0px 15px 0px; border-radius: 0px 0px 0px 0px; -moz-border-radius: 0px 0px 0px 0px; -webkit-border-radius: 0px 0px 0px 0px;"
-                                >
-                                    <div
-                                        class="gdlr-core-pbf-background-wrap"
-                                        style="
-                                                    background-color: #ffffff;
-                                                    border-radius: 0px 0px 0px 0px;
-                                                    -moz-border-radius: 0px 0px 0px 0px;
-                                                    -webkit-border-radius: 0px 0px 0px 0px;
-                                                    border-width: 1px 1px 1px 1px;
-                                                    border-color: #dfdfdf;
-                                                    border-style: solid;
-                                                "
-                                    ></div>
-                                    <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js">
-                                        <div class="gdlr-core-pbf-element">
-                                            <div
-                                                class="gdlr-core-column-service-item gdlr-core-item-pdb gdlr-core-left-align gdlr-core-column-service-icon-left gdlr-core-no-caption gdlr-core-item-pdlr"
-                                                style="padding-bottom: 0px;">
-                                                <div class="gdlr-core-column-service-media gdlr-core-media-image"
-                                                     style="margin-top: 10px; margin-left: 10px; max-width: 43px;">
-                                                    <img src="upload/logo2.png" alt="" width="150" height="150"
-                                                         title="logo2"/>
-                                                </div>
-                                                <div class="gdlr-core-column-service-content-wrapper">
-                                                    <div class="gdlr-core-column-service-title-wrap"
-                                                         style="margin-bottom: 5px;">
-                                                        <h3 class="gdlr-core-column-service-title gdlr-core-skin-title"
-                                                            style="font-size: 26px; font-weight: 600; text-transform: none;">
-                                                            Quick alert with auto action</h3>
-                                                    </div>
-                                                    <div class="gdlr-core-column-service-content"
-                                                         style="font-size: 18px; font-weight: 400; text-transform: none;">
-                                                        <p>Reduce attacker time with early detection and derailment of
-                                                            in-network threats. Built to cover all attack surfaces.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="gdlr-core-pbf-column gdlr-core-column-30">
-                                <div class="gdlr-core-pbf-column-content-margin gdlr-core-js">
-                                    <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="gdlr-core-pbf-wrapper" style="padding: 70px 0px 70px 0px;" id="gdlr-core-wrapper-6">
-                    <div class="gdlr-core-pbf-background-wrap"></div>
-                    <div class="gdlr-core-pbf-background-wrap" style="top: 50px;">
-                        <div
-                            class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js"
-                            style="background-image: url(upload/hp3-blog-bg.jpg); background-repeat: no-repeat; background-position: top center;"
+                            style="background-image: url(frontend/upload/world.jpg); background-size: cover; background-position: center;"
                             data-parallax-speed="0"
                         ></div>
                     </div>
@@ -3096,19 +2311,20 @@
                                     <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js">
                                         <div class="gdlr-core-pbf-element">
                                             <div
-                                                class="gdlr-core-title-item gdlr-core-item-pdb clearfix gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr"
-                                                style="padding-bottom: 60px;">
-                                                        <span
-                                                            class="gdlr-core-title-item-caption gdlr-core-info-font gdlr-core-skin-caption"
-                                                            style="font-size: 14px; font-weight: 500; font-style: normal; letter-spacing: 3px; text-transform: uppercase; color: #d32525;"
-                                                        >
-                                                            <span class="gdlr-core-title-item-caption-prefix"
-                                                                  style="border-color: #d32525; height: 13px; margin-right: 14px;"></span>Industry insights
-                                                        </span>
+                                                class="gdlr-core-divider-item gdlr-core-divider-item-normal gdlr-core-item-pdlr gdlr-core-center-align gdlr-core-style-vertical"
+                                                style="margin-bottom: 45px;">
+                                                <div class="gdlr-core-divider-line gdlr-core-skin-divider"
+                                                     style="border-color: #d32525; border-width: 2px; height: 80px;"></div>
+                                            </div>
+                                        </div>
+                                        <div class="gdlr-core-pbf-element">
+                                            <div
+                                                class="gdlr-core-title-item gdlr-core-item-pdb clearfix gdlr-core-center-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr"
+                                                style="padding-bottom: 25px;">
                                                 <div class="gdlr-core-title-item-title-wrap">
                                                     <h3 class="gdlr-core-title-item-title gdlr-core-skin-title"
-                                                        style="font-size: 42px; font-weight: 500; letter-spacing: 0px; text-transform: none; color: #1b1b1b;">
-                                                        Recent News<span
+                                                        style="font-size: 47px; font-weight: 700; letter-spacing: 0px; color: #000000;">
+                                                        {{$index_page->block_3['title']}} <span
                                                             class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
                                                     </h3>
                                                 </div>
@@ -3118,477 +2334,92 @@
                                 </div>
                             </div>
                             <div class="gdlr-core-pbf-column gdlr-core-column-60 gdlr-core-column-first"
-                                 data-skin="HP1 Blog" id="gdlr-core-column-9663">
-                                <div class="gdlr-core-pbf-column-content-margin gdlr-core-js"
-                                     style="margin: -110px 0px 0px 0px; padding: 0px 0px 60px 0px;">
+                                 id="gdlr-core-column-73015">
+                                <div class="gdlr-core-pbf-column-content-margin gdlr-core-js">
                                     <div class="gdlr-core-pbf-background-wrap"></div>
-                                    <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js">
+                                    <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js"
+                                         style="max-width: 1000px;">
                                         <div class="gdlr-core-pbf-element">
                                             <div
-                                                class="gdlr-core-blog-item gdlr-core-item-pdb clearfix gdlr-core-style-blog-column-with-frame gdlr-core-item-pdlr"
-                                                style="padding-bottom: 0px;" id="gdlr-core-blog-34977">
-                                                <div class="gdlr-core-flexslider flexslider gdlr-core-js-2"
-                                                     data-type="carousel" data-column="3" data-move="1"
-                                                     data-nav="navigation-top" data-nav-parent="self">
-                                                    <div
-                                                        class="gdlr-core-flexslider-custom-nav gdlr-core-style-navigation-top gdlr-core-right-align"
-                                                        style="margin-bottom: 50px;">
-                                                        <i class="ion-ios-arrow-thin-left flex-prev"
-                                                           style="color: #c6c6c6; padding: 0px 10px 0px 10px; font-size: 50px;"></i>
-                                                        <i class="ion-ios-arrow-thin-right flex-next"
-                                                           style="color: #c6c6c6; padding: 0px 10px 0px 10px; font-size: 50px;"></i>
-                                                    </div>
-                                                    <ul class="slides">
-                                                        <li class="gdlr-core-item-mglr">
-                                                            <div
-                                                                class="gdlr-core-blog-grid gdlr-core-style-4 gdlr-core-js gdlr-core-left-button gdlr-core-blog-grid-with-frame gdlr-core-item-mgb gdlr-core-skin-e-background gdlr-core-outer-frame-element gdlr-core-with-thumbnail"
-                                                                style="box-shadow: 0 20px 30px rgba(0, 0, 0, 0.06); -moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.06); -webkit-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.06);"
-                                                                data-sync-height="blog-item-1"
-                                                            >
-                                                                <div
-                                                                    class="gdlr-core-blog-thumbnail gdlr-core-media-image">
-                                                                    <a href="singleblog.html">
-                                                                        <img
-                                                                            src="upload/bench-accounting-49025-unsplash-600x600.jpg"
-                                                                            alt=""
-                                                                            width="600"
-                                                                            height="600"
-                                                                            title="bench-accounting-49025-unsplash"
-                                                                        />
-                                                                    </a>
-                                                                </div>
-                                                                <div
-                                                                    class="gdlr-core-blog-grid-frame gdlr-core-sync-height-space-position clearfix"
-                                                                    style="padding-right: 30px; padding-bottom: 40px;">
-                                                                    <div class="gdlr-core-blog-grid-top-info clearfix">
-                                                                                <span
-                                                                                    class="gdlr-core-blog-info gdlr-core-blog-info-font gdlr-core-skin-caption gdlr-core-blog-info-category">
-                                                                                    <span class="gdlr-core-head"><i
-                                                                                            class="icon_folder-alt"></i></span><a
-                                                                                        href="singleblog.html"
-                                                                                        rel="tag">Blog</a><span
-                                                                                        class="gdlr-core-sep">,</span>
-                                                                                    <a href="singleblog.html" rel="tag">M&amp;A</a>
-                                                                                </span>
-                                                                        <span
-                                                                            class="gdlr-core-blog-info gdlr-core-blog-info-font gdlr-core-skin-caption gdlr-core-blog-info-date">
-                                                                                    <span class="gdlr-core-head"><i
-                                                                                            class="icon_clock_alt"></i></span><a
-                                                                                href="$">15 Oct 20</a>
-                                                                                </span>
-                                                                    </div>
-                                                                    <h3 class="gdlr-core-blog-title gdlr-core-skin-title"
-                                                                        style="font-size: 27px; font-weight: 700; letter-spacing: 0px;">
-                                                                        <a href="singleblog.html">Zoom launches Zapps
-                                                                            into video calls</a>
-                                                                    </h3>
-                                                                    <div class="gdlr-core-blog-content clearfix"></div>
-                                                                    <span
-                                                                        class="gdlr-core-blog-info gdlr-core-blog-info-font gdlr-core-skin-caption gdlr-core-blog-info-author">
-                                                                                <span class="gdlr-core-head">By</span><a
-                                                                            href="author/superuser.html"
-                                                                            title="Posts by John Smith" rel="author">John Smith</a>
-                                                                            </span>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-                                                        <li class="gdlr-core-item-mglr">
-                                                            <div
-                                                                class="gdlr-core-blog-grid gdlr-core-style-4 gdlr-core-js gdlr-core-left-button gdlr-core-blog-grid-with-frame gdlr-core-item-mgb gdlr-core-skin-e-background gdlr-core-outer-frame-element gdlr-core-with-thumbnail"
-                                                                style="box-shadow: 0 20px 30px rgba(0, 0, 0, 0.06); -moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.06); -webkit-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.06);"
-                                                                data-sync-height="blog-item-1"
-                                                            >
-                                                                <div
-                                                                    class="gdlr-core-blog-thumbnail gdlr-core-media-image">
-                                                                    <a href="singleblog.html">
-                                                                        <img
-                                                                            src="upload/shutterstock_589223597-600x600.jpg"
-                                                                            alt="" width="600" height="600"
-                                                                            title="shutterstock_589223597"/>
-                                                                    </a>
-                                                                </div>
-                                                                <div
-                                                                    class="gdlr-core-blog-grid-frame gdlr-core-sync-height-space-position clearfix"
-                                                                    style="padding-right: 30px; padding-bottom: 40px;">
-                                                                    <div class="gdlr-core-blog-grid-top-info clearfix">
-                                                                                <span
-                                                                                    class="gdlr-core-blog-info gdlr-core-blog-info-font gdlr-core-skin-caption gdlr-core-blog-info-category">
-                                                                                    <span class="gdlr-core-head"><i
-                                                                                            class="icon_folder-alt"></i></span><a
-                                                                                        href="singleblog.html"
-                                                                                        rel="tag">Blog</a><span
-                                                                                        class="gdlr-core-sep">,</span>
-                                                                                    <a href="singleblog.html" rel="tag">Financial</a>
-                                                                                </span>
-                                                                        <span
-                                                                            class="gdlr-core-blog-info gdlr-core-blog-info-font gdlr-core-skin-caption gdlr-core-blog-info-date">
-                                                                                    <span class="gdlr-core-head"><i
-                                                                                            class="icon_clock_alt"></i></span><a
-                                                                                href="$">15 Oct 20</a>
-                                                                                </span>
-                                                                    </div>
-                                                                    <h3 class="gdlr-core-blog-title gdlr-core-skin-title"
-                                                                        style="font-size: 27px; font-weight: 700; letter-spacing: 0px;">
-                                                                        <a href="singleblog.html">Retail Jobs Are Still
-                                                                            Available</a>
-                                                                    </h3>
-                                                                    <div class="gdlr-core-blog-content clearfix"></div>
-                                                                    <span
-                                                                        class="gdlr-core-blog-info gdlr-core-blog-info-font gdlr-core-skin-caption gdlr-core-blog-info-author">
-                                                                                <span class="gdlr-core-head">By</span><a
-                                                                            href="author/superuser.html"
-                                                                            title="Posts by John Smith" rel="author">John Smith</a>
-                                                                            </span>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-                                                        <li class="gdlr-core-item-mglr">
-                                                            <div
-                                                                class="gdlr-core-blog-grid gdlr-core-style-4 gdlr-core-js gdlr-core-left-button gdlr-core-blog-grid-with-frame gdlr-core-item-mgb gdlr-core-skin-e-background gdlr-core-outer-frame-element gdlr-core-with-thumbnail"
-                                                                style="box-shadow: 0 20px 30px rgba(0, 0, 0, 0.06); -moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.06); -webkit-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.06);"
-                                                                data-sync-height="blog-item-1"
-                                                            >
-                                                                <div
-                                                                    class="gdlr-core-blog-thumbnail gdlr-core-media-image">
-                                                                    <a href="singleblog.html">
-                                                                        <img src="upload/iStock-956377212-600x600.jpg"
-                                                                             alt="" width="600" height="600"
-                                                                             title="iStock-956377212"/>
-                                                                    </a>
-                                                                </div>
-                                                                <div
-                                                                    class="gdlr-core-blog-grid-frame gdlr-core-sync-height-space-position clearfix"
-                                                                    style="padding-right: 30px; padding-bottom: 40px;">
-                                                                    <div class="gdlr-core-blog-grid-top-info clearfix">
-                                                                                <span
-                                                                                    class="gdlr-core-blog-info gdlr-core-blog-info-font gdlr-core-skin-caption gdlr-core-blog-info-category">
-                                                                                    <span class="gdlr-core-head"><i
-                                                                                            class="icon_folder-alt"></i></span><a
-                                                                                        href="singleblog.html"
-                                                                                        rel="tag">Blog</a><span
-                                                                                        class="gdlr-core-sep">,</span>
-                                                                                    <a href="singleblog.html" rel="tag">M&amp;A</a>
-                                                                                </span>
-                                                                        <span
-                                                                            class="gdlr-core-blog-info gdlr-core-blog-info-font gdlr-core-skin-caption gdlr-core-blog-info-date">
-                                                                                    <span class="gdlr-core-head"><i
-                                                                                            class="icon_clock_alt"></i></span><a
-                                                                                href="$">15 Oct 20</a>
-                                                                                </span>
-                                                                    </div>
-                                                                    <h3 class="gdlr-core-blog-title gdlr-core-skin-title"
-                                                                        style="font-size: 27px; font-weight: 700; letter-spacing: 0px;">
-                                                                        <a href="singleblog.html">How To Improve Your
-                                                                            Working From Home</a>
-                                                                    </h3>
-                                                                    <div class="gdlr-core-blog-content clearfix"></div>
-                                                                    <span
-                                                                        class="gdlr-core-blog-info gdlr-core-blog-info-font gdlr-core-skin-caption gdlr-core-blog-info-author">
-                                                                                <span class="gdlr-core-head">By</span><a
-                                                                            href="author/superuser.html"
-                                                                            title="Posts by John Smith" rel="author">John Smith</a>
-                                                                            </span>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-                                                        <li class="gdlr-core-item-mglr">
-                                                            <div
-                                                                class="gdlr-core-blog-grid gdlr-core-style-4 gdlr-core-js gdlr-core-left-button gdlr-core-blog-grid-with-frame gdlr-core-item-mgb gdlr-core-skin-e-background gdlr-core-outer-frame-element gdlr-core-with-thumbnail"
-                                                                style="box-shadow: 0 20px 30px rgba(0, 0, 0, 0.06); -moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.06); -webkit-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.06);"
-                                                                data-sync-height="blog-item-1"
-                                                            >
-                                                                <div
-                                                                    class="gdlr-core-blog-thumbnail gdlr-core-media-image">
-                                                                    <a href="singleblog.html">
-                                                                        <img src="upload/iStock-825150970-600x600.jpg"
-                                                                             alt="" width="600" height="600"
-                                                                             title="Conference"/>
-                                                                    </a>
-                                                                </div>
-                                                                <div
-                                                                    class="gdlr-core-blog-grid-frame gdlr-core-sync-height-space-position clearfix"
-                                                                    style="padding-right: 30px; padding-bottom: 40px;">
-                                                                    <div class="gdlr-core-blog-grid-top-info clearfix">
-                                                                                <span
-                                                                                    class="gdlr-core-blog-info gdlr-core-blog-info-font gdlr-core-skin-caption gdlr-core-blog-info-category">
-                                                                                    <span class="gdlr-core-head"><i
-                                                                                            class="icon_folder-alt"></i></span><a
-                                                                                        href="singleblog.html"
-                                                                                        rel="tag">Blog</a><span
-                                                                                        class="gdlr-core-sep">,</span>
-                                                                                    <a href="singleblog.html" rel="tag">Technology</a>
-                                                                                </span>
-                                                                        <span
-                                                                            class="gdlr-core-blog-info gdlr-core-blog-info-font gdlr-core-skin-caption gdlr-core-blog-info-date">
-                                                                                    <span class="gdlr-core-head"><i
-                                                                                            class="icon_clock_alt"></i></span><a
-                                                                                href="$">15 Oct 20</a>
-                                                                                </span>
-                                                                    </div>
-                                                                    <h3 class="gdlr-core-blog-title gdlr-core-skin-title"
-                                                                        style="font-size: 27px; font-weight: 700; letter-spacing: 0px;">
-                                                                        <a href="singleblog.html">How 5G’s enhanced
-                                                                            reliability and latency</a>
-                                                                    </h3>
-                                                                    <div class="gdlr-core-blog-content clearfix"></div>
-                                                                    <span
-                                                                        class="gdlr-core-blog-info gdlr-core-blog-info-font gdlr-core-skin-caption gdlr-core-blog-info-author">
-                                                                                <span class="gdlr-core-head">By</span><a
-                                                                            href="author/superuser.html"
-                                                                            title="Posts by John Smith" rel="author">John Smith</a>
-                                                                            </span>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-                                                        <li class="gdlr-core-item-mglr">
-                                                            <div
-                                                                class="gdlr-core-blog-grid gdlr-core-style-4 gdlr-core-js gdlr-core-left-button gdlr-core-blog-grid-with-frame gdlr-core-item-mgb gdlr-core-skin-e-background gdlr-core-outer-frame-element gdlr-core-with-thumbnail"
-                                                                style="box-shadow: 0 20px 30px rgba(0, 0, 0, 0.06); -moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.06); -webkit-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.06);"
-                                                                data-sync-height="blog-item-1"
-                                                            >
-                                                                <div
-                                                                    class="gdlr-core-blog-thumbnail gdlr-core-media-image">
-                                                                    <a href="singleblog.html">
-                                                                        <img
-                                                                            src="upload/QAdTsSj8TOOWzlyLn3Rg_14248396556_aefcd9a926_o-600x600.jpg"
-                                                                            alt=""
-                                                                            width="600"
-                                                                            height="600"
-                                                                            title="QAdTsSj8TOOWzlyLn3Rg_14248396556_aefcd9a926_o"
-                                                                        />
-                                                                    </a>
-                                                                </div>
-                                                                <div
-                                                                    class="gdlr-core-blog-grid-frame gdlr-core-sync-height-space-position clearfix"
-                                                                    style="padding-right: 30px; padding-bottom: 40px;">
-                                                                    <div class="gdlr-core-blog-grid-top-info clearfix">
-                                                                                <span
-                                                                                    class="gdlr-core-blog-info gdlr-core-blog-info-font gdlr-core-skin-caption gdlr-core-blog-info-category">
-                                                                                    <span class="gdlr-core-head"><i
-                                                                                            class="icon_folder-alt"></i></span><a
-                                                                                        href="singleblog.html"
-                                                                                        rel="tag">Blog</a><span
-                                                                                        class="gdlr-core-sep">,</span>
-                                                                                    <a href="singleblog.html" rel="tag">Financial</a>
-                                                                                </span>
-                                                                        <span
-                                                                            class="gdlr-core-blog-info gdlr-core-blog-info-font gdlr-core-skin-caption gdlr-core-blog-info-date">
-                                                                                    <span class="gdlr-core-head"><i
-                                                                                            class="icon_clock_alt"></i></span><a
-                                                                                href="$">15 Oct 20</a>
-                                                                                </span>
-                                                                    </div>
-                                                                    <h3 class="gdlr-core-blog-title gdlr-core-skin-title"
-                                                                        style="font-size: 27px; font-weight: 700; letter-spacing: 0px;">
-                                                                        <a href="singleblog.html">Google Cloud not to
-                                                                            pry into customer data</a>
-                                                                    </h3>
-                                                                    <div class="gdlr-core-blog-content clearfix"></div>
-                                                                    <span
-                                                                        class="gdlr-core-blog-info gdlr-core-blog-info-font gdlr-core-skin-caption gdlr-core-blog-info-author">
-                                                                                <span class="gdlr-core-head">By</span><a
-                                                                            href="author/superuser.html"
-                                                                            title="Posts by John Smith" rel="author">John Smith</a>
-                                                                            </span>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-                                                        <li class="gdlr-core-item-mglr">
-                                                            <div
-                                                                class="gdlr-core-blog-grid gdlr-core-style-4 gdlr-core-js gdlr-core-left-button gdlr-core-blog-grid-with-frame gdlr-core-item-mgb gdlr-core-skin-e-background gdlr-core-outer-frame-element gdlr-core-with-thumbnail"
-                                                                style="box-shadow: 0 20px 30px rgba(0, 0, 0, 0.06); -moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.06); -webkit-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.06);"
-                                                                data-sync-height="blog-item-1"
-                                                            >
-                                                                <div
-                                                                    class="gdlr-core-blog-thumbnail gdlr-core-media-image">
-                                                                    <a href="singleblog.html">
-                                                                        <img src="upload/iStock-638219322-600x600.jpg"
-                                                                             alt="" width="600" height="600"
-                                                                             title="Conference"/>
-                                                                    </a>
-                                                                </div>
-                                                                <div
-                                                                    class="gdlr-core-blog-grid-frame gdlr-core-sync-height-space-position clearfix"
-                                                                    style="padding-right: 30px; padding-bottom: 40px;">
-                                                                    <div class="gdlr-core-blog-grid-top-info clearfix">
-                                                                                <span
-                                                                                    class="gdlr-core-blog-info gdlr-core-blog-info-font gdlr-core-skin-caption gdlr-core-blog-info-category">
-                                                                                    <span class="gdlr-core-head"><i
-                                                                                            class="icon_folder-alt"></i></span><a
-                                                                                        href="singleblog.html"
-                                                                                        rel="tag">Blog</a><span
-                                                                                        class="gdlr-core-sep">,</span>
-                                                                                    <a href="singleblog.html" rel="tag">M&amp;A</a>
-                                                                                </span>
-                                                                        <span
-                                                                            class="gdlr-core-blog-info gdlr-core-blog-info-font gdlr-core-skin-caption gdlr-core-blog-info-date">
-                                                                                    <span class="gdlr-core-head"><i
-                                                                                            class="icon_clock_alt"></i></span><a
-                                                                                href="$">15 Oct 20</a>
-                                                                                </span>
-                                                                    </div>
-                                                                    <h3 class="gdlr-core-blog-title gdlr-core-skin-title"
-                                                                        style="font-size: 27px; font-weight: 700; letter-spacing: 0px;">
-                                                                        <a href="singleblog.html">Business With Remote
-                                                                            Working</a>
-                                                                    </h3>
-                                                                    <div class="gdlr-core-blog-content clearfix"></div>
-                                                                    <span
-                                                                        class="gdlr-core-blog-info gdlr-core-blog-info-font gdlr-core-skin-caption gdlr-core-blog-info-author">
-                                                                                <span class="gdlr-core-head">By</span><a
-                                                                            href="author/superuser.html"
-                                                                            title="Posts by John Smith" rel="author">John Smith</a>
-                                                                            </span>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-                                                        <li class="gdlr-core-item-mglr">
-                                                            <div
-                                                                class="gdlr-core-blog-grid gdlr-core-style-4 gdlr-core-js gdlr-core-left-button gdlr-core-blog-grid-with-frame gdlr-core-item-mgb gdlr-core-skin-e-background gdlr-core-outer-frame-element gdlr-core-with-thumbnail"
-                                                                style="box-shadow: 0 20px 30px rgba(0, 0, 0, 0.06); -moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.06); -webkit-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.06);"
-                                                                data-sync-height="blog-item-1"
-                                                            >
-                                                                <div
-                                                                    class="gdlr-core-blog-thumbnail gdlr-core-media-image">
-                                                                    <a href="singleblog.html">
-                                                                        <img
-                                                                            src="upload/shutterstock_1067103281-600x600.jpg"
-                                                                            alt="" width="600" height="600"
-                                                                            title="shutterstock_1067103281"/>
-                                                                    </a>
-                                                                </div>
-                                                                <div
-                                                                    class="gdlr-core-blog-grid-frame gdlr-core-sync-height-space-position clearfix"
-                                                                    style="padding-right: 30px; padding-bottom: 40px;">
-                                                                    <div class="gdlr-core-blog-grid-top-info clearfix">
-                                                                                <span
-                                                                                    class="gdlr-core-blog-info gdlr-core-blog-info-font gdlr-core-skin-caption gdlr-core-blog-info-category">
-                                                                                    <span class="gdlr-core-head"><i
-                                                                                            class="icon_folder-alt"></i></span><a
-                                                                                        href="singleblog.html"
-                                                                                        rel="tag">Blog</a><span
-                                                                                        class="gdlr-core-sep">,</span>
-                                                                                    <a href="singleblog.html" rel="tag">Financial</a>
-                                                                                </span>
-                                                                        <span
-                                                                            class="gdlr-core-blog-info gdlr-core-blog-info-font gdlr-core-skin-caption gdlr-core-blog-info-date">
-                                                                                    <span class="gdlr-core-head"><i
-                                                                                            class="icon_clock_alt"></i></span><a
-                                                                                href="$">15 Oct 20</a>
-                                                                                </span>
-                                                                    </div>
-                                                                    <h3 class="gdlr-core-blog-title gdlr-core-skin-title"
-                                                                        style="font-size: 27px; font-weight: 700; letter-spacing: 0px;">
-                                                                        <a href="singleblog.html">Boosting Your
-                                                                            Marketing Team</a>
-                                                                    </h3>
-                                                                    <div class="gdlr-core-blog-content clearfix"></div>
-                                                                    <span
-                                                                        class="gdlr-core-blog-info gdlr-core-blog-info-font gdlr-core-skin-caption gdlr-core-blog-info-author">
-                                                                                <span class="gdlr-core-head">By</span><a
-                                                                            href="author/superuser.html"
-                                                                            title="Posts by John Smith" rel="author">John Smith</a>
-                                                                            </span>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-                                                        <li class="gdlr-core-item-mglr">
-                                                            <div
-                                                                class="gdlr-core-blog-grid gdlr-core-style-4 gdlr-core-js gdlr-core-left-button gdlr-core-blog-grid-with-frame gdlr-core-item-mgb gdlr-core-skin-e-background gdlr-core-outer-frame-element gdlr-core-with-thumbnail"
-                                                                style="box-shadow: 0 20px 30px rgba(0, 0, 0, 0.06); -moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.06); -webkit-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.06);"
-                                                                data-sync-height="blog-item-1"
-                                                            >
-                                                                <div
-                                                                    class="gdlr-core-blog-thumbnail gdlr-core-media-image">
-                                                                    <a href="singleblog.html">
-                                                                        <img src="upload/iStock-491542880-600x600.jpg"
-                                                                             alt="" width="600" height="600"
-                                                                             title="iStock-491542880"/>
-                                                                    </a>
-                                                                </div>
-                                                                <div
-                                                                    class="gdlr-core-blog-grid-frame gdlr-core-sync-height-space-position clearfix"
-                                                                    style="padding-right: 30px; padding-bottom: 40px;">
-                                                                    <div class="gdlr-core-blog-grid-top-info clearfix">
-                                                                                <span
-                                                                                    class="gdlr-core-blog-info gdlr-core-blog-info-font gdlr-core-skin-caption gdlr-core-blog-info-category">
-                                                                                    <span class="gdlr-core-head"><i
-                                                                                            class="icon_folder-alt"></i></span><a
-                                                                                        href="singleblog.html"
-                                                                                        rel="tag">Blog</a><span
-                                                                                        class="gdlr-core-sep">,</span>
-                                                                                    <a href="singleblog.html" rel="tag">Technology</a>
-                                                                                </span>
-                                                                        <span
-                                                                            class="gdlr-core-blog-info gdlr-core-blog-info-font gdlr-core-skin-caption gdlr-core-blog-info-date">
-                                                                                    <span class="gdlr-core-head"><i
-                                                                                            class="icon_clock_alt"></i></span><a
-                                                                                href="#">14 Oct 20</a>
-                                                                                </span>
-                                                                    </div>
-                                                                    <h3 class="gdlr-core-blog-title gdlr-core-skin-title"
-                                                                        style="font-size: 27px; font-weight: 700; letter-spacing: 0px;">
-                                                                        <a href="singleblog.html">Best Startup Strategy
-                                                                            For 2025</a>
-                                                                    </h3>
-                                                                    <div class="gdlr-core-blog-content clearfix"></div>
-                                                                    <span
-                                                                        class="gdlr-core-blog-info gdlr-core-blog-info-font gdlr-core-skin-caption gdlr-core-blog-info-author">
-                                                                                <span class="gdlr-core-head">By</span><a
-                                                                            href="author/superuser.html"
-                                                                            title="Posts by John Smith" rel="author">John Smith</a>
-                                                                            </span>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-                                                    </ul>
+                                                class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-center-align">
+                                                <div class="gdlr-core-text-box-item-content"
+                                                     style="font-size: 18px; font-weight: 400; text-transform: none; color: #6c6c6c;">
+                                                    <p>
+                                                        {{$index_page->block_3['description']}}
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="gdlr-core-pbf-column gdlr-core-column-60 gdlr-core-column-first">
-                                <div class="gdlr-core-pbf-column-content-margin gdlr-core-js">
-                                    <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js">
                                         <div class="gdlr-core-pbf-element">
                                             <div
-                                                class="gdlr-core-button-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-center-align"
-                                                style="padding-bottom: 0px;">
+                                                class="gdlr-core-button-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-center-align">
                                                 <a
                                                     class="gdlr-core-button gdlr-core-button-gradient gdlr-core-center-align gdlr-core-button-no-border"
-                                                    href="blog-full-right-sidebar-with-frame.html"
+                                                    href="{{$index_page->block_3['button1_url']}}"
                                                     style="
                                                                 font-size: 16px;
                                                                 font-weight: 700;
                                                                 letter-spacing: 0px;
                                                                 color: #ffffff;
-                                                                padding: 3px 33px 3px 33px;
+                                                                padding: 1px 31px 1px 31px;
                                                                 text-transform: none;
-                                                                border-radius: 33px;
-                                                                -moz-border-radius: 33px;
-                                                                -webkit-border-radius: 33px;
+                                                                margin: 0px 10px 10px;
+                                                                border-radius: 31px;
+                                                                -moz-border-radius: 31px;
+                                                                -webkit-border-radius: 31px;
                                                                 background: #d32525;
                                                             "
                                                 >
-                                                    <span class="gdlr-core-content">View All News</span><i
+                                                    <span class="gdlr-core-content">{{$index_page->block_3['button1_text']}}</span><i
                                                         class="gdlr-core-pos-right ion-ios-arrow-thin-right"
                                                         style="font-size: 31px; color: #ffffff;"></i>
+                                                </a>
+                                                <a
+                                                    class="gdlr-core-button gdlr-core-button-transparent gdlr-core-center-align gdlr-core-button-with-border"
+                                                    href="{{$index_page->block_3['button2_url']}}"
+                                                    style="
+                                                                font-size: 16px;
+                                                                font-weight: 700;
+                                                                letter-spacing: 0px;
+                                                                color: #d32525;
+                                                                padding: 0px 25px 0px 25px;
+                                                                text-transform: none;
+                                                                border-radius: 31px;
+                                                                -moz-border-radius: 31px;
+                                                                -webkit-border-radius: 31px;
+                                                                border-width: 2px 2px 2px 2px;
+                                                                border-color: #d32525;
+                                                            "
+                                                >
+                                                    <span class="gdlr-core-content">{{$index_page->block_3['button2_text']}}</span><i
+                                                        class="gdlr-core-pos-right ion-ios-arrow-thin-right"
+                                                        style="font-size: 31px; color: #d32525;"></i>
                                                 </a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                            <div class="gdlr-core-pbf-element">
+                                <div class="gdlr-core-shape-divider-item" id="gdlr-core-shape-divider-75481">
+                                    <div class="gdlr-core-shape-divider-wrap gdlr-core-pos-bottom gdlr-core-flip">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1000 100"
+                                             preserveaspectratio="none">
+                                            <path d="M0,6V0h1000v100L0,6z"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+
                 <div class="gdlr-core-pbf-wrapper" style="padding: 80px 0px 130px 0px;" data-skin="NUMBER HP3"
                      id="gdlr-core-wrapper-7">
                     <div class="gdlr-core-pbf-background-wrap">
                         <div
                             class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js"
-                            style="background-image: url(upload/bg-comlumn-down.jpg); background-size: cover; background-position: center;"
+                            style="background-image: url(frontend/upload/bg-comlumn-down.jpg); background-size: cover; background-position: center;"
                             data-parallax-speed="0"
                         ></div>
                     </div>
@@ -3628,8 +2459,7 @@
                                                 <div class="gdlr-core-title-item-title-wrap">
                                                     <h3 class="gdlr-core-title-item-title gdlr-core-skin-title"
                                                         style="font-size: 37px; font-weight: 600; letter-spacing: 0px; text-transform: none; color: #ffffff;">
-                                                        Let’s discuss about how we can help make your business more
-                                                        secured<span
+                                                        {{$index_page->block_6['title']}}<span
                                                             class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
                                                     </h3>
                                                 </div>
@@ -3641,7 +2471,7 @@
                                                 style="padding-bottom: 0px;">
                                                 <a
                                                     class="gdlr-core-button gdlr-core-button-gradient gdlr-core-center-align gdlr-core-button-no-border"
-                                                    href="contact.html"
+                                                    href="{{$index_page->block_6['button_url']}}"
                                                     style="
                                                                 font-size: 16px;
                                                                 font-weight: 700;
@@ -3655,7 +2485,7 @@
                                                                 background: #d32525;
                                                             "
                                                 >
-                                                    <span class="gdlr-core-content">Get Consult</span><i
+                                                    <span class="gdlr-core-content">{{$index_page->block_6['button_text']}}</span><i
                                                         class="gdlr-core-pos-right ion-ios-arrow-thin-right"
                                                         style="font-size: 31px; color: #ffffff;"></i>
                                                 </a>

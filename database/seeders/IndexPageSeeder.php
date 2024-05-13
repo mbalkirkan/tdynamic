@@ -28,7 +28,9 @@ class IndexPageSeeder extends Seeder
             ]
         ];
         $block2_settings = [
-            'image' => 'block2.jpg'
+            'image' => 'block2.jpg',
+            'title' => 'Lorem ipsum dolor sit amet',
+            'subtitle' => 'Lorem ipsum dolor sit amet',
         ];
         $block3 = [
             'title' => 'Lorem ipsum dolor sit amet',
@@ -60,12 +62,12 @@ class IndexPageSeeder extends Seeder
 
         $block6 = [
             'title' => 'Lorem ipsum dolor sit amet',
-            'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, eleifend nunc. Nulla ut turpis non nunc vestibulum luctus. Nulla facilisi. Duis sit amet luctus dui. In hac habitasse platea dictumst. Integer eget dui at lorem iaculis ultricies. Integer nec turpis at tellus.',
+//            'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, eleifend nunc. Nulla ut turpis non nunc vestibulum luctus. Nulla facilisi. Duis sit amet luctus dui. In hac habitasse platea dictumst. Integer eget dui at lorem iaculis ultricies. Integer nec turpis at tellus.',
             'image' => 'block6.jpg',
-            'button1_text' => 'Lorem ipsum',
-            'button1_url' => '#',
-            'button2_text' => 'Lorem ipsum',
-            'button2_url' => '#',
+            'button_text' => 'Lorem ipsum',
+            'button_url' => '#',
+//            'button2_text' => 'Lorem ipsum',
+//            'button2_url' => '#',
         ];
 
         Index::create([

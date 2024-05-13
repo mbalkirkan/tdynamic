@@ -31,39 +31,93 @@
             <div class="col-md-4">
                 <div class="card shadow-sm">
                     <div class="card-header">
-                        <h3 class="card-title">Temel</h3>
+                        <h3 class="card-title">Blok 1</h3>
                     </div>
                     <div class="card-body p-0">
                         <div class="card-p mb-10">
                             <div class="mb-10">
-                                <label for="exampleFormControlInput1" class="required form-label">Logo (164x31)</label>
-                                <div class="input-group mb-5">
-                                    <input type="file" class="form-control" name="logo" placeholder="Dosya"
-                                           aria-label="Dosya"
-                                           aria-describedby="basic-addon1"/>
-                                </div>
+                                <label for="exampleFormControlInput1" class="required form-label">Başlık - 1</label>
+                                <input type="text" name="title" value="{{$index_page->block_1[0]['title']}}" class="form-control form-control-solid"
+                                       placeholder="Başlık - 1"/>
                             </div>
                             <div class="mb-10">
-                                <label for="exampleFormControlInput1" class="required form-label">Logo (123x31)</label>
-                                <div class="input-group mb-5">
-                                    <input type="file" class="form-control" name="logo2" placeholder="Dosya"
-                                           aria-label="Dosya"
-                                           aria-describedby="basic-addon1"/>
-                                </div>
-                            </div>
-                            <div class="mb-10">
-                                <label for="exampleFormControlInput1" class="required form-label">Favicon</label>
-                                <div class="input-group mb-5">
-                                    <input type="file" class="form-control" name="favicon" placeholder="Dosya"
-                                           aria-label="Dosya"
-                                           aria-describedby="basic-addon1"/>
-                                </div>
+                                <label for="exampleFormControlInput1" class="required form-label">Açıklama - 1</label>
+                                <textarea class="form-control " placeholder="Açıklama - 1" style="height: 100px">{{$index_page->block_1[0]['description']}}</textarea>
                             </div>
 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <div class="card-header">
+                        <h3 class="card-title">Blok 1</h3>
+                    </div>
+                    <div class="card-body p-0">
+                        <div class="card-p mb-10">
+                            <div class="mb-10">
+                                <label for="exampleFormControlInput1" class="required form-label">Başlık - 2</label>
+                                <input type="text" name="title" value="{{$index_page->block_1[1]['title']}}" class="form-control form-control-solid"
+                                       placeholder="Başlık - 2"/>
+                            </div>
+                            <div class="mb-10">
+                                <label for="exampleFormControlInput1" class="required form-label">Açıklama - 2</label>
+                                <textarea class="form-control " placeholder="Açıklama - 2" style="height: 100px">{{$index_page->block_1[1]['description']}}</textarea>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <div class="card-header">
+                        <h3 class="card-title">Blok 1</h3>
+                    </div>
+                    <div class="card-body p-0">
+                        <div class="card-p mb-10">
+                            <div class="mb-10">
+                                <label for="exampleFormControlInput1" class="required form-label">Başlık - 3</label>
+                                <input type="text" name="title" value="{{$index_page->block_1[2]['title']}}" class="form-control form-control-solid"
+                                       placeholder="Başlık - 3"/>
+                            </div>
+                            <div class="mb-10">
+                                <label for="exampleFormControlInput1" class="required form-label">Açıklama - 3</label>
+                                <textarea class="form-control " placeholder="Açıklama - 3" style="height: 100px">{{$index_page->block_1[2]['description']}}</textarea>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12 mt-5">
+                <div class="card shadow-sm">
+                    <div class="card-header">
+                        <h3 class="card-title">Blok 2 Ayarları</h3>
+                    </div>
+                    <div class="card-body p-0">
+                        <div class="card-p mb-10">
+                            <div class="mb-10">
+                                <label for="exampleFormControlInput1" class="required form-label">Arka Plan Resmi </label>
+                                <div class="input-group mb-5">
+                                    <input type="file" class="form-control" name="logo" placeholder="Arka Plan Resmi"
+                                           aria-label="Arka Plan Resmi"
+                                           aria-describedby="basic-addon1"/>
+                                </div>
+                            </div>
                             <div class="mb-10">
                                 <label for="exampleFormControlInput1" class="required form-label">Başlık</label>
-                                <input type="text" name="title" value="{{$system->title}}" class="form-control form-control-solid"
-                                       placeholder="Başlık"/>
+                                <input type="text" name="title" value="{{$index_page->block_1[2]['title']}}" class="form-control form-control-solid"
+                                       placeholder="Başlık - 3"/>
+                            </div>
+                            <div class="mb-10">
+                                <label for="exampleFormControlInput1" class="required form-label">Alt Başlık</label>
+                                <textarea class="form-control" placeholder="Açıklama - 3" style="height: 100px">{{$index_page->block_1[2]['description']}}</textarea>
                             </div>
 
                         </div>
@@ -71,101 +125,262 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
+
+            <div class="col-md-12 mt-5">
                 <div class="card shadow-sm">
                     <div class="card-header">
-                        <h3 class="card-title">SEO</h3>
+                        <h3 class="card-title">Blok 3 Ayarları</h3>
                     </div>
                     <div class="card-body p-0">
                         <div class="card-p mb-10">
-
-
                             <div class="mb-10">
-                                <label for="exampleFormControlInput1" class="required form-label">Yazar</label>
-                                <input type="text" name="author" value="{{$system->author}}" class="form-control form-control-solid"
-                                       placeholder="Yazar"/>
-                            </div>
-
-                            <div class="mb-10">
-                                <label for="exampleFormControlInput1" class="required form-label">Meta Açıklama</label>
-                                <input type="text" name="meta_description" value="{{$system->meta_description}}" class="form-control form-control-solid"
-                                       placeholder="Meta Açıklama"/>
+                                <label for="exampleFormControlInput1" class="required form-label">Arka Plan Resmi </label>
+                                <div class="input-group mb-5">
+                                    <input type="file" class="form-control" name="logo" placeholder="Arka Plan Resmi"
+                                           aria-label="Arka Plan Resmi"
+                                           aria-describedby="basic-addon1"/>
+                                </div>
                             </div>
                             <div class="mb-10">
-                                <label for="exampleFormControlInput1" class="required form-label">Meta Keywords (, ile
-                                    ayırınız.)</label>
-                                <input type="text" name="meta_keywords" value="{{$system->meta_keywords}}" class="form-control form-control-solid"
-                                       placeholder="Meta Keywords (',' ile ayırınız.)"/>
+                                <label for="exampleFormControlInput1" class="required form-label">Başlık</label>
+                                <input type="text" name="title" value="{{$index_page->block_1[2]['title']}}" class="form-control form-control-solid"
+                                       placeholder="Başlık - 3"/>
                             </div>
+                            <div class="mb-10">
+                                <label for="exampleFormControlInput1" class="required form-label">Alt Başlık</label>
+                                <textarea class="form-control" placeholder="Açıklama - 3" style="height: 100px">{{$index_page->block_1[2]['description']}}</textarea>
+                            </div>
+
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-12 mt-5">
                 <div class="card shadow-sm">
                     <div class="card-header">
-                        <h3 class="card-title">Sosyal Medya</h3>
+                        <h3 class="card-title">Blok 5 Ayarları</h3>
                     </div>
                     <div class="card-body p-0">
-                        <div class="card-p">
-                            <div class="">
-                                <label for="exampleFormControlInput1" class="required form-label">Facebook</label>
-                                <input type="text" name="facebook" value="{{$system->facebook}}" class="form-control form-control-solid"
-                                       placeholder="Facebook"/>
+                        <div class="card-p mb-10">
+                            <div class="mb-10">
+                                <label for="exampleFormControlInput1" class="required form-label">Arka Plan Resmi </label>
+                                <div class="input-group mb-5">
+                                    <input type="file" class="form-control" name="logo" placeholder="Arka Plan Resmi"
+                                           aria-label="Arka Plan Resmi"
+                                           aria-describedby="basic-addon1"/>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="card-body p-0">
-                        <div class="card-p">
-                            <div class="">
-                                <label for="exampleFormControlInput1" class="required form-label">Twitter</label>
-                                <input type="text" name="twitter" value="{{$system->twitter}}" class="form-control form-control-solid"
-                                       placeholder="Twitter"/>
+                            <div class="row">
+
+                                <div class="col-md-3">
+                                    <div class="card shadow-sm">
+                                        <div class="card-header">
+                                            <h3 class="card-title">Sayaç 1</h3>
+                                        </div>
+                                        <div class="card-body p-0">
+                                            <div class="card-p mb-10">
+                                                <div class="mb-10">
+                                                    <label for="exampleFormControlInput1" class="required form-label">Sayaç - 1</label>
+                                                    <input type="text" name="title" value="{{$index_page->block_5['counter_1']}}" class="form-control form-control-solid"
+                                                           placeholder="Sayaç - 1"/>
+                                                </div>
+                                                <div class="mb-10">
+                                                    <label for="exampleFormControlInput1" class="required form-label">Sayaç Açıklama - 1</label>
+                                                    <input type="text" name="title" value="{{$index_page->block_5['counter_1_text']}}" class="form-control form-control-solid"
+                                                           placeholder="Sayaç Açıklama - 1"/>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card shadow-sm">
+                                        <div class="card-header">
+                                            <h3 class="card-title">Sayaç 1</h3>
+                                        </div>
+                                        <div class="card-body p-0">
+                                            <div class="card-p mb-10">
+                                                <div class="mb-10">
+                                                    <label for="exampleFormControlInput1" class="required form-label">Sayaç - 1</label>
+                                                    <input type="text" name="title" value="{{$index_page->block_5['counter_1']}}" class="form-control form-control-solid"
+                                                           placeholder="Sayaç - 1"/>
+                                                </div>
+                                                <div class="mb-10">
+                                                    <label for="exampleFormControlInput1" class="required form-label">Sayaç Açıklama - 1</label>
+                                                    <input type="text" name="title" value="{{$index_page->block_5['counter_1_text']}}" class="form-control form-control-solid"
+                                                           placeholder="Sayaç Açıklama - 1"/>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card shadow-sm">
+                                        <div class="card-header">
+                                            <h3 class="card-title">Sayaç 1</h3>
+                                        </div>
+                                        <div class="card-body p-0">
+                                            <div class="card-p mb-10">
+                                                <div class="mb-10">
+                                                    <label for="exampleFormControlInput1" class="required form-label">Sayaç - 1</label>
+                                                    <input type="text" name="title" value="{{$index_page->block_5['counter_1']}}" class="form-control form-control-solid"
+                                                           placeholder="Sayaç - 1"/>
+                                                </div>
+                                                <div class="mb-10">
+                                                    <label for="exampleFormControlInput1" class="required form-label">Sayaç Açıklama - 1</label>
+                                                    <input type="text" name="title" value="{{$index_page->block_5['counter_1_text']}}" class="form-control form-control-solid"
+                                                           placeholder="Sayaç Açıklama - 1"/>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card shadow-sm">
+                                        <div class="card-header">
+                                            <h3 class="card-title">Sayaç 1</h3>
+                                        </div>
+                                        <div class="card-body p-0">
+                                            <div class="card-p mb-10">
+                                                <div class="mb-10">
+                                                    <label for="exampleFormControlInput1" class="required form-label">Sayaç - 1</label>
+                                                    <input type="text" name="title" value="{{$index_page->block_5['counter_1']}}" class="form-control form-control-solid"
+                                                           placeholder="Sayaç - 1"/>
+                                                </div>
+                                                <div class="mb-10">
+                                                    <label for="exampleFormControlInput1" class="required form-label">Sayaç Açıklama - 1</label>
+                                                    <input type="text" name="title" value="{{$index_page->block_5['counter_1_text']}}" class="form-control form-control-solid"
+                                                           placeholder="Sayaç Açıklama - 1"/>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
-                        </div>
-                    </div>
-                    <div class="card-body p-0">
-                        <div class="card-p">
-                            <div class="">
-                                <label for="exampleFormControlInput1" class="required form-label">Instagram</label>
-                                <input type="text" name="instagram" value="{{$system->instagram}}" class="form-control form-control-solid"
-                                       placeholder="Instagram"/>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body p-0">
-                        <div class="card-p">
-                            <div class="">
-                                <label for="exampleFormControlInput1" class="required form-label">Linkedin</label>
-                                <input type="text" name="linkedin" value="{{$system->linkedin}}" class="form-control form-control-solid"
-                                       placeholder="Linkedin"/>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body p-0">
-                        <div class="card-p">
-                            <div class="">
-                                <label for="exampleFormControlInput1" class="required form-label">Youtube</label>
-                                <input type="text" name="youtube" value="{{$system->youtube}}" class="form-control form-control-solid"
-                                       placeholder="Youtube"/>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body p-0">
-                        <div class="card-p">
-                            <div class="">
-                                <label for="exampleFormControlInput1" class="required form-label">Pinterest</label>
-                                <input type="text" name="pinterest" value="{{$system->pinterest}}" class="form-control form-control-solid"
-                                       placeholder="Pinterest"/>
-                            </div>
-                        </div>
-                    </div>
 
 
+                        </div>
+                    </div>
                 </div>
             </div>
 
+            <div class="col-md-12 mt-5">
+                <div class="card shadow-sm">
+                    <div class="card-header">
+                        <h3 class="card-title">Blok 6 Ayarları</h3>
+                    </div>
+                    <div class="card-body p-0">
+                        <div class="card-p mb-10">
+                            <div class="mb-10">
+                                <label for="exampleFormControlInput1" class="required form-label">Arka Plan Resmi </label>
+                                <div class="input-group mb-5">
+                                    <input type="file" class="form-control" name="logo" placeholder="Arka Plan Resmi"
+                                           aria-label="Arka Plan Resmi"
+                                           aria-describedby="basic-addon1"/>
+                                </div>
+                            </div>
+                            <div class="mb-10">
+                                <label for="exampleFormControlInput1" class="required form-label">Başlık</label>
+                                <input type="text" name="title" value="{{$index_page->block_1[2]['title']}}" class="form-control form-control-solid"
+                                       placeholder="Başlık - 3"/>
+                            </div>
+                            <div class="mb-10">
+                                <label for="exampleFormControlInput1" class="required form-label">Açıklama</label>
+                                <textarea class="form-control" placeholder="Açıklama - 3" style="height: 100px">{{$index_page->block_1[2]['description']}}</textarea>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="card shadow-sm">
+                                        <div class="card-header">
+                                            <h3 class="card-title">Buton - 1</h3>
+                                        </div>
+                                        <div class="card-body p-0">
+                                            <div class="card-p mb-10">
+                                                <div class="mb-10">
+                                                    <label for="exampleFormControlInput1" class="required form-label">Buton 1 Text</label>
+                                                    <input type="text" name="title" value="{{$index_page->block_1[2]['title']}}" class="form-control form-control-solid"
+                                                           placeholder="Başlık - 3"/>
+                                                </div>
+                                                <div class="mb-10">
+                                                    <label for="exampleFormControlInput1" class="required form-label">Buton 1 Link</label>
+                                                    <input type="text" name="title" value="{{$index_page->block_1[2]['title']}}" class="form-control form-control-solid"
+                                                           placeholder="Başlık - 3"/>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card shadow-sm">
+                                        <div class="card-header">
+                                            <h3 class="card-title">Buton - 2</h3>
+                                        </div>
+                                        <div class="card-body p-0">
+                                            <div class="card-p mb-10">
+                                                <div class="mb-10">
+                                                    <label for="exampleFormControlInput1" class="required form-label">Buton 1 Text</label>
+                                                    <input type="text" name="title" value="{{$index_page->block_1[2]['title']}}" class="form-control form-control-solid"
+                                                           placeholder="Başlık - 3"/>
+                                                </div>
+                                                <div class="mb-10">
+                                                    <label for="exampleFormControlInput1" class="required form-label">Buton 1 Link</label>
+                                                    <input type="text" name="title" value="{{$index_page->block_1[2]['title']}}" class="form-control form-control-solid"
+                                                           placeholder="Başlık - 3"/>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12 mt-5">
+                <div class="card shadow-sm">
+                    <div class="card-header">
+                        <h3 class="card-title">Blok 7 Ayarları</h3>
+                    </div>
+                    <div class="card-body p-0">
+                        <div class="card-p mb-10">
+                            <div class="mb-10">
+                                <label for="exampleFormControlInput1" class="required form-label">Arka Plan Resmi </label>
+                                <div class="input-group mb-5">
+                                    <input type="file" class="form-control" name="logo" placeholder="Arka Plan Resmi"
+                                           aria-label="Arka Plan Resmi"
+                                           aria-describedby="basic-addon1"/>
+                                </div>
+                            </div>
+                            <div class="mb-10">
+                                <label for="exampleFormControlInput1" class="required form-label">Başlık</label>
+                                <input type="text" name="title" value="{{$index_page->block_1[2]['title']}}" class="form-control form-control-solid"
+                                       placeholder="Başlık - 3"/>
+                            </div>
+
+                            <div class="mb-10">
+                                <label for="exampleFormControlInput1" class="required form-label">Buton Text</label>
+                                <input type="text" name="title" value="{{$index_page->block_1[2]['title']}}" class="form-control form-control-solid"
+                                       placeholder="Buton Text"/>
+                            </div>
+                            <div class="mb-10">
+                                <label for="exampleFormControlInput1" class="required form-label">Buton Url</label>
+                                <input type="text" name="title" value="{{$index_page->block_1[2]['title']}}" class="form-control form-control-solid"
+                                       placeholder="Buton Url"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             @csrf
         </form>
 

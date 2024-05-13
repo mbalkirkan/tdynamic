@@ -16,14 +16,17 @@ class IndexPageController extends Controller
     {
         $sliders = Slider::orderBy('order', 'asc')
             ->get();
-        return view('user.index', compact('sliders'));
+        $index_page = Index::first();
+
+//        return $index_page;
+        return view('user.index', compact('sliders', 'index_page'));
     }
 
     public function admin_index(Request $request)
     {
         $index_page = Index::first();
 
-        return view('admin.page.index');
+        return view('admin.page.index', compact('index_page'));
     }
 
 
