@@ -174,22 +174,22 @@
                                 </div>
                                 <!--end:Menu item-->
 
-                                <!--begin:Menu item-->
-                                <div class="menu-item">
-                                    <!--begin:Menu link-->
-                                    <a class="menu-link @if(request()->routeIs('admin.header')) active @endif"
-                                       href="{{route('admin.header')}}">
-												<span class="menu-icon">
-													<i class="ki-duotone ki-abstract-26 fs-2">
-														<span class="path1"></span>
-														<span class="path2"></span>
-													</i>
-												</span>
-                                        <span class="menu-title">Header</span>
-                                    </a>
-                                    <!--end:Menu link-->
-                                </div>
-                                <!--end:Menu item-->
+{{--                                <!--begin:Menu item-->--}}
+{{--                                <div class="menu-item">--}}
+{{--                                    <!--begin:Menu link-->--}}
+{{--                                    <a class="menu-link @if(request()->routeIs('admin.header')) active @endif"--}}
+{{--                                       href="{{route('admin.header')}}">--}}
+{{--												<span class="menu-icon">--}}
+{{--													<i class="ki-duotone ki-abstract-26 fs-2">--}}
+{{--														<span class="path1"></span>--}}
+{{--														<span class="path2"></span>--}}
+{{--													</i>--}}
+{{--												</span>--}}
+{{--                                        <span class="menu-title">Header</span>--}}
+{{--                                    </a>--}}
+{{--                                    <!--end:Menu link-->--}}
+{{--                                </div>--}}
+{{--                                <!--end:Menu item-->--}}
                             </div>
                             <!--end::Menu-->
                         </div>

@@ -825,7 +825,7 @@
                     <div class="gdlr-core-pbf-background-wrap">
                         <div
                             class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js"
-                            style="background-image: url(frontend/upload/hp3-col-bg.png); background-repeat: no-repeat; background-position: top center;"
+                            style="background-image: url({{asset('frontend/upload/hp3-col-bg.png')}}); background-repeat: no-repeat; background-position: top center;"
                             data-parallax-speed="0"
                         ></div>
                     </div>
@@ -1002,7 +1002,7 @@
                     <div class="gdlr-core-pbf-background-wrap">
                         <div
                             class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js"
-                            style="background-image: url(frontend/upload/red000.jpg); background-size: cover; background-position: center;"
+                            style="background-image: url({{$index_page->block_2_settings['image']}}); background-size: cover; background-position: center;"
                             data-parallax-speed="0"
                         ></div>
                     </div>
@@ -1062,7 +1062,7 @@
                                     <div class="gdlr-core-pbf-background-wrap">
                                         <div
                                             class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js"
-                                            style="background-image: url(frontend/upload/circle00.jpg); background-size: cover; background-position: center;"
+                                            style="background-image: url({{asset('frontend/upload/circle00.jpg')}}); background-size: cover; background-position: center;"
                                             data-parallax-speed="0"
                                         ></div>
                                     </div>
@@ -1139,7 +1139,7 @@
                                     <div class="gdlr-core-pbf-background-wrap">
                                         <div
                                             class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js"
-                                            style="background-image: url(frontend/upload/circle00.jpg); background-size: cover; background-position: center;"
+                                            style="background-image: url({{asset('frontend/upload/circle00.jpg')}}); background-size: cover; background-position: center;"
                                             data-parallax-speed="0"
                                         ></div>
                                     </div>
@@ -1216,7 +1216,7 @@
                                     <div class="gdlr-core-pbf-background-wrap">
                                         <div
                                             class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js"
-                                            style="background-image: url(frontend/upload/circle00.jpg); background-size: cover; background-position: center;"
+                                            style="background-image: url({{asset('frontend/upload/circle00.jpg')}}); background-size: cover; background-position: center;"
                                             data-parallax-speed="0"
                                         ></div>
                                     </div>
@@ -1294,7 +1294,7 @@
                                     <div class="gdlr-core-pbf-background-wrap" style="background-color: #ffffff;">
                                         <div
                                             class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js"
-                                            style="background-image: url(frontend/upload/circle00.jpg); background-size: cover; background-position: center;"
+                                            style="background-image: {{asset('frontend/upload/circle00.jpg')}}; background-size: cover; background-position: center;"
                                             data-parallax-speed="0"
                                         ></div>
                                     </div>
@@ -1372,7 +1372,7 @@
                                     <div class="gdlr-core-pbf-background-wrap" style="background-color: #ffffff;">
                                         <div
                                             class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js"
-                                            style="background-image: url(frontend/upload/circle00.jpg); background-size: cover; background-position: center;"
+                                            style="background-image: {{asset('frontend/upload/circle00.jpg')}}; background-size: cover; background-position: center;"
                                             data-parallax-speed="0"
                                         ></div>
                                     </div>
@@ -1450,7 +1450,7 @@
                                     <div class="gdlr-core-pbf-background-wrap" style="background-color: #ffffff;">
                                         <div
                                             class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js"
-                                            style="background-image: url(frontend/upload/circle00.jpg); background-size: cover; background-position: center;"
+                                            style="background-image: {{asset('frontend/upload/circle00.jpg')}}; background-size: cover; background-position: center;"
                                             data-parallax-speed="0"
                                         ></div>
                                     </div>
@@ -1530,7 +1530,7 @@
                     <div class="gdlr-core-pbf-background-wrap">
                         <div
                             class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js"
-                            style="background-image: url(frontend/upload/hp3-port-bg-1.jpg); background-repeat: no-repeat; background-position: top center;"
+                            style="background-image: url({{asset('frontend/upload/hp3-port-bg-1.jpg')}}); background-repeat: no-repeat; background-position: top center;"
                             data-parallax-speed="0"
                         ></div>
                     </div>
@@ -2039,7 +2039,7 @@
                     <div class="gdlr-core-pbf-background-wrap">
                         <div
                             class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js"
-                            style="background-image: url(frontend/upload/bg-number.jpg); background-size: cover; background-position: center;"
+                            style="background-image: url({{$index_page->block_5['image']}}); background-size: cover; background-position: center;"
                             data-parallax-speed="0"
                         ></div>
                     </div>
@@ -2300,7 +2300,7 @@
                     <div class="gdlr-core-pbf-background-wrap">
                         <div
                             class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js"
-                            style="background-image: url(frontend/upload/world.jpg); background-size: cover; background-position: center;"
+                            style="background-image: url({{$index_page->block_3['image']}}); background-size: cover; background-position: center;"
                             data-parallax-speed="0"
                         ></div>
                     </div>
@@ -2419,7 +2419,7 @@
                     <div class="gdlr-core-pbf-background-wrap">
                         <div
                             class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js"
-                            style="background-image: url(frontend/upload/bg-comlumn-down.jpg); background-size: cover; background-position: center;"
+                            style="background-image: url( {{$index_page->block_6['image']}}); background-size: cover; background-position: center;"
                             data-parallax-speed="0"
                         ></div>
                     </div>
@@ -2522,7 +2522,7 @@
                     <div class="corzo-footer-column corzo-item-pdlr corzo-column-15">
                         <div id="gdlr-core-custom-menu-widget-1"
                              class="widget widget_gdlr-core-custom-menu-widget corzo-widget">
-                            <h1 class="corzo-widget-title corzo-with-divider">About Us</h1>
+                            <h1 class="corzo-widget-title corzo-with-divider">Hakkımızda</h1>
                             <span class="clear"></span>
                             <div class="menu-quick-links-container">
                                 <ul id="menu-quick-links"
@@ -2541,42 +2541,42 @@
                     </div>
                     <div class="corzo-footer-column corzo-item-pdlr corzo-column-15">
                         <div id="text-3" class="widget widget_text corzo-widget">
-                            <h1 class="corzo-widget-title corzo-with-divider">New York</h1>
+                            <h1 class="corzo-widget-title corzo-with-divider">Istanbul</h1>
                             <span class="clear"></span>
                             <div class="textwidget">
                                 <p>
-                                    <span style="font-size: 18px; color: #999999; font-weight: 400;">Email</span><br/>
+                                    <span style="font-size: 18px; color: #999999; font-weight: 400;">E-Posta</span><br/>
                                     <span style="font-size: 18px; color: #ffffff; font-weight: 600;">
-                                                <a href="/cdn-cgi/l/email-protection" class="__cf_email__"
-                                                   data-cfemail="185b77766c797b6c587b77767e7d6a796c707d757d366d6b">[email&#160;protected]</a>
+                                                <a href="mailto:{{$system->email}}" class="__cf_email__"
+                                                   data-cfemail="185b77766c797b6c587b77767e7d6a796c707d757d366d6b">{{$system->email}}</a>
                                             </span>
                                     <br/>
                                     <span class="gdlr-core-space-shortcode" style="margin-top: -10px;"></span><br/>
-                                    <span style="font-size: 18px; color: #999999; font-weight: 400;">Phone</span><br/>
-                                    <span style="font-size: 18px; color: #ffffff; font-weight: 600;">+1-2345-3456</span>
+                                    <span style="font-size: 18px; color: #999999; font-weight: 400;">Telefon</span><br/>
+                                    <span style="font-size: 18px; color: #ffffff; font-weight: 600;">{{$system->phone}}</span>
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div class="corzo-footer-column corzo-item-pdlr corzo-column-15">
-                        <div id="text-8" class="widget widget_text corzo-widget">
-                            <h1 class="corzo-widget-title corzo-with-divider">London</h1>
-                            <span class="clear"></span>
-                            <div class="textwidget">
-                                <p>
-                                    <span style="font-size: 18px; color: #999999; font-weight: 400;">Email</span><br/>
-                                    <span style="font-size: 18px; color: #ffffff; font-weight: 600;">
-                                                <a href="/cdn-cgi/l/email-protection" class="__cf_email__"
-                                                   data-cfemail="084b67667c696b7c486b67666e6d7a697c606d656d267d63">[email&#160;protected]</a>
-                                            </span>
-                                    <br/>
-                                    <span class="gdlr-core-space-shortcode" style="margin-top: -10px;"></span><br/>
-                                    <span style="font-size: 18px; color: #999999; font-weight: 400;">Phone</span><br/>
-                                    <span style="font-size: 18px; color: #ffffff; font-weight: 600;">+44-345-3456</span>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+{{--                    <div class="corzo-footer-column corzo-item-pdlr corzo-column-15">--}}
+{{--                        <div id="text-8" class="widget widget_text corzo-widget">--}}
+{{--                            <h1 class="corzo-widget-title corzo-with-divider">London</h1>--}}
+{{--                            <span class="clear"></span>--}}
+{{--                            <div class="textwidget">--}}
+{{--                                <p>--}}
+{{--                                    <span style="font-size: 18px; color: #999999; font-weight: 400;">Email</span><br/>--}}
+{{--                                    <span style="font-size: 18px; color: #ffffff; font-weight: 600;">--}}
+{{--                                                <a href="/cdn-cgi/l/email-protection" class="__cf_email__"--}}
+{{--                                                   data-cfemail="084b67667c696b7c486b67666e6d7a697c606d656d267d63">[email&#160;protected]</a>--}}
+{{--                                            </span>--}}
+{{--                                    <br/>--}}
+{{--                                    <span class="gdlr-core-space-shortcode" style="margin-top: -10px;"></span><br/>--}}
+{{--                                    <span style="font-size: 18px; color: #999999; font-weight: 400;">Phone</span><br/>--}}
+{{--                                    <span style="font-size: 18px; color: #ffffff; font-weight: 600;">+44-345-3456</span>--}}
+{{--                                </p>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
                 </div>
             </div>
             <div class="corzo-copyright-wrapper">

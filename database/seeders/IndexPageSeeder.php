@@ -28,14 +28,14 @@ class IndexPageSeeder extends Seeder
             ]
         ];
         $block2_settings = [
-            'image' => 'block2.jpg',
+            'image' => 'https://max-themes.net/demos/corzo/cybersecurity/upload/red000.jpg',
             'title' => 'Lorem ipsum dolor sit amet',
             'subtitle' => 'Lorem ipsum dolor sit amet',
         ];
         $block3 = [
             'title' => 'Lorem ipsum dolor sit amet',
             'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, eleifend nunc. Nulla ut turpis non nunc vestibulum luctus. Nulla facilisi. Duis sit amet luctus dui. In hac habitasse platea dictumst. Integer eget dui at lorem iaculis ultricies. Integer nec turpis at tellus.',
-            'image' => 'block3.jpg',
+            'image' => 'https://max-themes.net/demos/corzo/cybersecurity/upload/world.jpg',
             'button1_text' => 'Lorem ipsum',
             'button1_url' => '#',
             'button2_text' => 'Lorem ipsum',
@@ -43,13 +43,13 @@ class IndexPageSeeder extends Seeder
         ];
 
         $block4_settings = [
-            'image' => 'block4.jpg',
+            'image' => 'https://max-themes.net/demos/corzo/cybersecurity/upload/hp3-port-bg-1.jpg',
             'title' => 'Lorem ipsum dolor sit amet',
             'subtitle' => 'Lorem ipsum dolor sit amet',
         ];
 
         $block5 = [
-            'image' => 'block5.jpg',
+            'image' => 'https://max-themes.net/demos/corzo/cybersecurity/upload/bg-number.jpg',
             'counter_1' => '123',
             'counter_2' => '123',
             'counter_3' => '123',
@@ -63,7 +63,7 @@ class IndexPageSeeder extends Seeder
         $block6 = [
             'title' => 'Lorem ipsum dolor sit amet',
 //            'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, eleifend nunc. Nulla ut turpis non nunc vestibulum luctus. Nulla facilisi. Duis sit amet luctus dui. In hac habitasse platea dictumst. Integer eget dui at lorem iaculis ultricies. Integer nec turpis at tellus.',
-            'image' => 'block6.jpg',
+            'image' => 'https://max-themes.net/demos/corzo/cybersecurity/upload/bg-comlumn-down.jpg',
             'button_text' => 'Lorem ipsum',
             'button_url' => '#',
 //            'button2_text' => 'Lorem ipsum',

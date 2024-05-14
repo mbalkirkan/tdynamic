@@ -103,7 +103,7 @@
                     <div class="card-body p-0">
                         <div class="card-p mb-10">
                             <div class="mb-10">
-                                <label for="exampleFormControlInput1" class="required form-label">Arka Plan Resmi </label>
+                                <label for="exampleFormControlInput1" class="required form-label">Arka Plan Resmi (1800x1269)</label>
                                 <div class="input-group mb-5">
                                     <input type="file" class="form-control" name="logo" placeholder="Arka Plan Resmi"
                                            aria-label="Arka Plan Resmi"
@@ -125,7 +125,6 @@
                 </div>
             </div>
 
-
             <div class="col-md-12 mt-5">
                 <div class="card shadow-sm">
                     <div class="card-header">
@@ -134,7 +133,7 @@
                     <div class="card-body p-0">
                         <div class="card-p mb-10">
                             <div class="mb-10">
-                                <label for="exampleFormControlInput1" class="required form-label">Arka Plan Resmi </label>
+                                <label for="exampleFormControlInput1" class="required form-label">Arka Plan Resmi (1542x501)</label>
                                 <div class="input-group mb-5">
                                     <input type="file" class="form-control" name="logo" placeholder="Arka Plan Resmi"
                                            aria-label="Arka Plan Resmi"
@@ -164,7 +163,7 @@
                     <div class="card-body p-0">
                         <div class="card-p mb-10">
                             <div class="mb-10">
-                                <label for="exampleFormControlInput1" class="required form-label">Arka Plan Resmi </label>
+                                <label for="exampleFormControlInput1" class="required form-label">Arka Plan Resmi (1800x707)</label>
                                 <div class="input-group mb-5">
                                     <input type="file" class="form-control" name="logo" placeholder="Arka Plan Resmi"
                                            aria-label="Arka Plan Resmi"
@@ -278,7 +277,7 @@
                     <div class="card-body p-0">
                         <div class="card-p mb-10">
                             <div class="mb-10">
-                                <label for="exampleFormControlInput1" class="required form-label">Arka Plan Resmi </label>
+                                <label for="exampleFormControlInput1" class="required form-label">Arka Plan Resmi (1800x743)</label>
                                 <div class="input-group mb-5">
                                     <input type="file" class="form-control" name="logo" placeholder="Arka Plan Resmi"
                                            aria-label="Arka Plan Resmi"
@@ -354,7 +353,7 @@
                     <div class="card-body p-0">
                         <div class="card-p mb-10">
                             <div class="mb-10">
-                                <label for="exampleFormControlInput1" class="required form-label">Arka Plan Resmi </label>
+                                <label for="exampleFormControlInput1" class="required form-label">Arka Plan Resmi (2000x747)</label>
                                 <div class="input-group mb-5">
                                     <input type="file" class="form-control" name="logo" placeholder="Arka Plan Resmi"
                                            aria-label="Arka Plan Resmi"
