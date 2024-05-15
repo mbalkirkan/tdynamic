@@ -1592,13 +1592,14 @@
                                         data-nav-parent="gdlr-core-portfolio-item"
                                     >
                                         <ul class="slides">
+                                            @foreach($portfolios as $portfolio)
                                             <li class="gdlr-core-item-mglr">
                                                 <div class="gdlr-core-portfolio-modern2">
                                                     <div
                                                         class="gdlr-core-portfolio-thumbnail gdlr-core-media-image gdlr-core-style-custom">
                                                         <div
                                                             class="gdlr-core-portfolio-thumbnail-image-wrap gdlr-core-zoom-on-hover">
-                                                            <img src="frontend/upload/Meeting01-600x800.jpg" alt="" width="600"
+                                                            <img src="{{asset('uploads/portfolio/'.$portfolio->image)}}" alt="" width="600"
                                                                  height="800" title="Meeting01"/>
                                                             <span
                                                                 class="gdlr-core-image-overlay gdlr-core-portfolio-overlay gdlr-core-custom gdlr-core-no-hover"
@@ -1607,159 +1608,17 @@
                                                                             <span
                                                                                 class="gdlr-core-portfolio-title gdlr-core-title-font"
                                                                                 style="font-size: 30px; font-weight: 600; letter-spacing: 0px; text-transform: none;">
-                                                                                <a href="singleport.html">System Integration</a>
+                                                                                <a href="#">{{$portfolio->title}}</a>
                                                                             </span>
-                                                                            <span class="gdlr-core-portfolio-caption">Geo Motor</span>
+                                                                            <span class="gdlr-core-portfolio-caption">{{$portfolio->sub_title}}</span>
                                                                         </span>
                                                                     </span>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </li>
-                                            <li class="gdlr-core-item-mglr">
-                                                <div class="gdlr-core-portfolio-modern2">
-                                                    <div
-                                                        class="gdlr-core-portfolio-thumbnail gdlr-core-media-image gdlr-core-style-custom">
-                                                        <div
-                                                            class="gdlr-core-portfolio-thumbnail-image-wrap gdlr-core-zoom-on-hover">
-                                                            <img src="frontend/upload/meeting02-600x800.jpg" alt="" width="600"
-                                                                 height="800" title="meeting02"/>
-                                                            <span
-                                                                class="gdlr-core-image-overlay gdlr-core-portfolio-overlay gdlr-core-custom gdlr-core-no-hover"
-                                                                style="background: rgba(10, 10, 10, 0.1);">
-                                                                        <span class="gdlr-core-image-overlay-content">
-                                                                            <span
-                                                                                class="gdlr-core-portfolio-title gdlr-core-title-font"
-                                                                                style="font-size: 30px; font-weight: 600; letter-spacing: 0px; text-transform: none;">
-                                                                                <a href="singleport.html">Empower Banking Industry</a>
-                                                                            </span>
-                                                                            <span class="gdlr-core-portfolio-caption">Bank of America</span>
-                                                                        </span>
-                                                                    </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="gdlr-core-item-mglr">
-                                                <div class="gdlr-core-portfolio-modern2">
-                                                    <div
-                                                        class="gdlr-core-portfolio-thumbnail gdlr-core-media-image gdlr-core-style-custom">
-                                                        <div
-                                                            class="gdlr-core-portfolio-thumbnail-image-wrap gdlr-core-zoom-on-hover">
-                                                            <img src="frontend/upload/meeting03-600x800.jpg" alt="" width="600"
-                                                                 height="800" title="meeting03"/>
-                                                            <span
-                                                                class="gdlr-core-image-overlay gdlr-core-portfolio-overlay gdlr-core-custom gdlr-core-no-hover"
-                                                                style="background: rgba(10, 10, 10, 0.1);">
-                                                                        <span class="gdlr-core-image-overlay-content">
-                                                                            <span
-                                                                                class="gdlr-core-portfolio-title gdlr-core-title-font"
-                                                                                style="font-size: 30px; font-weight: 600; letter-spacing: 0px; text-transform: none;">
-                                                                                <a href="singleport.html">More Secure Trading Platform</a>
-                                                                            </span>
-                                                                            <span class="gdlr-core-portfolio-caption">London Trade Station</span>
-                                                                        </span>
-                                                                    </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="gdlr-core-item-mglr">
-                                                <div class="gdlr-core-portfolio-modern2">
-                                                    <div
-                                                        class="gdlr-core-portfolio-thumbnail gdlr-core-media-image gdlr-core-style-custom">
-                                                        <div
-                                                            class="gdlr-core-portfolio-thumbnail-image-wrap gdlr-core-zoom-on-hover">
-                                                            <img src="frontend/upload/meeting04-600x800.jpg" alt="" width="600"
-                                                                 height="800" title="meeting04"/>
-                                                            <span
-                                                                class="gdlr-core-image-overlay gdlr-core-portfolio-overlay gdlr-core-custom gdlr-core-no-hover"
-                                                                style="background: rgba(10, 10, 10, 0.1);">
-                                                                        <span class="gdlr-core-image-overlay-content">
-                                                                            <span
-                                                                                class="gdlr-core-portfolio-title gdlr-core-title-font"
-                                                                                style="font-size: 30px; font-weight: 600; letter-spacing: 0px; text-transform: none;">
-                                                                                <a href="singleport.html">Infrastructer Security</a>
-                                                                            </span>
-                                                                            <span class="gdlr-core-portfolio-caption">Government</span>
-                                                                        </span>
-                                                                    </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="gdlr-core-item-mglr">
-                                                <div class="gdlr-core-portfolio-modern2">
-                                                    <div
-                                                        class="gdlr-core-portfolio-thumbnail gdlr-core-media-image gdlr-core-style-custom">
-                                                        <div
-                                                            class="gdlr-core-portfolio-thumbnail-image-wrap gdlr-core-zoom-on-hover">
-                                                            <img src="frontend/upload/N01-600x800.jpg" alt="" width="600"
-                                                                 height="800" title="N01"/>
-                                                            <span
-                                                                class="gdlr-core-image-overlay gdlr-core-portfolio-overlay gdlr-core-custom gdlr-core-no-hover"
-                                                                style="background: rgba(10, 10, 10, 0.1);">
-                                                                        <span class="gdlr-core-image-overlay-content">
-                                                                            <span
-                                                                                class="gdlr-core-portfolio-title gdlr-core-title-font"
-                                                                                style="font-size: 30px; font-weight: 600; letter-spacing: 0px; text-transform: none;">
-                                                                                <a href="singleport.html">Service update interruption</a>
-                                                                            </span>
-                                                                            <span class="gdlr-core-portfolio-caption">Corzo Patch </span>
-                                                                        </span>
-                                                                    </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="gdlr-core-item-mglr">
-                                                <div class="gdlr-core-portfolio-modern2">
-                                                    <div
-                                                        class="gdlr-core-portfolio-thumbnail gdlr-core-media-image gdlr-core-style-custom">
-                                                        <div
-                                                            class="gdlr-core-portfolio-thumbnail-image-wrap gdlr-core-zoom-on-hover">
-                                                            <img src="frontend/upload/N02-600x800.jpg" alt="" width="600"
-                                                                 height="800" title="N02"/>
-                                                            <span
-                                                                class="gdlr-core-image-overlay gdlr-core-portfolio-overlay gdlr-core-custom gdlr-core-no-hover"
-                                                                style="background: rgba(10, 10, 10, 0.1);">
-                                                                        <span class="gdlr-core-image-overlay-content">
-                                                                            <span
-                                                                                class="gdlr-core-portfolio-title gdlr-core-title-font"
-                                                                                style="font-size: 30px; font-weight: 600; letter-spacing: 0px; text-transform: none;">
-                                                                                <a href="singleport.html">Unauthorized access</a>
-                                                                            </span>
-                                                                            <span class="gdlr-core-portfolio-caption">Corporate's Infrastructure </span>
-                                                                        </span>
-                                                                    </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="gdlr-core-item-mglr">
-                                                <div class="gdlr-core-portfolio-modern2">
-                                                    <div
-                                                        class="gdlr-core-portfolio-thumbnail gdlr-core-media-image gdlr-core-style-custom">
-                                                        <div
-                                                            class="gdlr-core-portfolio-thumbnail-image-wrap gdlr-core-zoom-on-hover">
-                                                            <img src="frontend/upload/N04-600x800.jpg" alt="" width="600"
-                                                                 height="800" title="N04"/>
-                                                            <span
-                                                                class="gdlr-core-image-overlay gdlr-core-portfolio-overlay gdlr-core-custom gdlr-core-no-hover"
-                                                                style="background: rgba(10, 10, 10, 0.1);">
-                                                                        <span class="gdlr-core-image-overlay-content">
-                                                                            <span
-                                                                                class="gdlr-core-portfolio-title gdlr-core-title-font"
-                                                                                style="font-size: 30px; font-weight: 600; letter-spacing: 0px; text-transform: none;">
-                                                                                <a href="singleport.html">Malware attack protection</a>
-                                                                            </span>
-                                                                            <span class="gdlr-core-portfolio-caption"> Apple Corp </span>
-                                                                        </span>
-                                                                    </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
+                                            @endforeach
+{{--                                --}}
                                         </ul>
                                     </div>
                                 </div>
@@ -1772,7 +1631,8 @@
                     <div class="gdlr-core-pbf-background-wrap"></div>
                     <div class="gdlr-core-pbf-wrapper-content gdlr-core-js">
                         <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container">
-                            <div class="gdlr-core-pbf-column gdlr-core-column-10 gdlr-core-column-first"
+                            @foreach($references as $reference)
+                            <div class="gdlr-core-pbf-column gdlr-core-column-10 "
                                  id="gdlr-core-column-34327">
                                 <div class="gdlr-core-pbf-column-content-margin gdlr-core-js">
                                     <div class="gdlr-core-pbf-background-wrap"></div>
@@ -1784,8 +1644,8 @@
                                                 <div
                                                     class="gdlr-core-image-item-wrap gdlr-core-media-image gdlr-core-image-item-style-rectangle"
                                                     style="border-width: 0px; max-width: 150px;">
-                                                    <img src="frontend/upload/icon01.png" alt="" width="280" height="140"
-                                                         title="icon01"/>
+                                                    <img src="{{asset('uploads/reference/'.$reference->image)}}" alt="" width="280" height="140"
+                                                         title="{{$reference->title}}"/>
                                                 </div>
                                             </div>
                                         </div>
@@ -1795,7 +1655,7 @@
                                                 <div class="gdlr-core-title-item-title-wrap">
                                                     <h3 class="gdlr-core-title-item-title gdlr-core-skin-title"
                                                         style="font-size: 13px; font-weight: 500; letter-spacing: 4px; color: #aaaaaa;">
-                                                        Astrate<span
+                                                        {{$reference->title}}<span
                                                             class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
                                                     </h3>
                                                 </div>
@@ -1816,220 +1676,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="gdlr-core-pbf-column gdlr-core-column-10" id="gdlr-core-column-14536">
-                                <div class="gdlr-core-pbf-column-content-margin gdlr-core-js">
-                                    <div class="gdlr-core-pbf-background-wrap"></div>
-                                    <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js">
-                                        <div class="gdlr-core-pbf-element">
-                                            <div
-                                                class="gdlr-core-image-item gdlr-core-item-pdb gdlr-core-center-align gdlr-core-item-pdlr"
-                                                style="padding-bottom: 15px;">
-                                                <div
-                                                    class="gdlr-core-image-item-wrap gdlr-core-media-image gdlr-core-image-item-style-rectangle"
-                                                    style="border-width: 0px; max-width: 150px;">
-                                                    <img src="frontend/upload/icon02.png" alt="" width="280" height="140"
-                                                         title="icon02"/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="gdlr-core-pbf-element">
-                                            <div
-                                                class="gdlr-core-title-item gdlr-core-item-pdb clearfix gdlr-core-center-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr">
-                                                <div class="gdlr-core-title-item-title-wrap">
-                                                    <h3 class="gdlr-core-title-item-title gdlr-core-skin-title"
-                                                        style="font-size: 13px; font-weight: 500; letter-spacing: 4px; color: #aaaaaa;">
-                                                        Nitrox<span
-                                                            class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
-                                                    </h3>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="gdlr-core-pbf-element">
-                                            <div
-                                                class="gdlr-core-divider-item gdlr-core-divider-item-normal gdlr-core-item-pdlr gdlr-core-center-align"
-                                                style="margin-bottom: 0px;">
-                                                <div class="gdlr-core-divider-container" style="max-width: 5px;">
-                                                    <div
-                                                        class="gdlr-core-divider-line gdlr-core-skin-divider"
-                                                        style="border-color: #d32525; border-width: 5px; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;"
-                                                    ></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="gdlr-core-pbf-column gdlr-core-column-10" id="gdlr-core-column-60681">
-                                <div class="gdlr-core-pbf-column-content-margin gdlr-core-js">
-                                    <div class="gdlr-core-pbf-background-wrap"></div>
-                                    <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js">
-                                        <div class="gdlr-core-pbf-element">
-                                            <div
-                                                class="gdlr-core-image-item gdlr-core-item-pdb gdlr-core-center-align gdlr-core-item-pdlr"
-                                                style="padding-bottom: 15px;">
-                                                <div
-                                                    class="gdlr-core-image-item-wrap gdlr-core-media-image gdlr-core-image-item-style-rectangle"
-                                                    style="border-width: 0px; max-width: 150px;">
-                                                    <img src="frontend/upload/icon03.png" alt="" width="280" height="140"
-                                                         title="icon03"/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="gdlr-core-pbf-element">
-                                            <div
-                                                class="gdlr-core-title-item gdlr-core-item-pdb clearfix gdlr-core-center-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr">
-                                                <div class="gdlr-core-title-item-title-wrap">
-                                                    <h3 class="gdlr-core-title-item-title gdlr-core-skin-title"
-                                                        style="font-size: 13px; font-weight: 500; letter-spacing: 4px; color: #aaaaaa;">
-                                                        Wirox<span
-                                                            class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
-                                                    </h3>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="gdlr-core-pbf-element">
-                                            <div
-                                                class="gdlr-core-divider-item gdlr-core-divider-item-normal gdlr-core-item-pdlr gdlr-core-center-align"
-                                                style="margin-bottom: 0px;">
-                                                <div class="gdlr-core-divider-container" style="max-width: 5px;">
-                                                    <div
-                                                        class="gdlr-core-divider-line gdlr-core-skin-divider"
-                                                        style="border-color: #d32525; border-width: 5px; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;"
-                                                    ></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="gdlr-core-pbf-column gdlr-core-column-10" id="gdlr-core-column-11679">
-                                <div class="gdlr-core-pbf-column-content-margin gdlr-core-js">
-                                    <div class="gdlr-core-pbf-background-wrap"></div>
-                                    <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js">
-                                        <div class="gdlr-core-pbf-element">
-                                            <div
-                                                class="gdlr-core-image-item gdlr-core-item-pdb gdlr-core-center-align gdlr-core-item-pdlr"
-                                                style="padding-bottom: 15px;">
-                                                <div
-                                                    class="gdlr-core-image-item-wrap gdlr-core-media-image gdlr-core-image-item-style-rectangle"
-                                                    style="border-width: 0px; max-width: 150px;">
-                                                    <img src="frontend/upload/icon04.png" alt="" width="280" height="140"
-                                                         title="icon04"/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="gdlr-core-pbf-element">
-                                            <div
-                                                class="gdlr-core-title-item gdlr-core-item-pdb clearfix gdlr-core-center-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr">
-                                                <div class="gdlr-core-title-item-title-wrap">
-                                                    <h3 class="gdlr-core-title-item-title gdlr-core-skin-title"
-                                                        style="font-size: 13px; font-weight: 500; letter-spacing: 4px; color: #aaaaaa;">
-                                                        DataTel<span
-                                                            class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
-                                                    </h3>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="gdlr-core-pbf-element">
-                                            <div
-                                                class="gdlr-core-divider-item gdlr-core-divider-item-normal gdlr-core-item-pdlr gdlr-core-center-align"
-                                                style="margin-bottom: 0px;">
-                                                <div class="gdlr-core-divider-container" style="max-width: 5px;">
-                                                    <div
-                                                        class="gdlr-core-divider-line gdlr-core-skin-divider"
-                                                        style="border-color: #d32525; border-width: 5px; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;"
-                                                    ></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="gdlr-core-pbf-column gdlr-core-column-10" id="gdlr-core-column-74158">
-                                <div class="gdlr-core-pbf-column-content-margin gdlr-core-js">
-                                    <div class="gdlr-core-pbf-background-wrap"></div>
-                                    <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js">
-                                        <div class="gdlr-core-pbf-element">
-                                            <div
-                                                class="gdlr-core-image-item gdlr-core-item-pdb gdlr-core-center-align gdlr-core-item-pdlr"
-                                                style="padding-bottom: 15px;">
-                                                <div
-                                                    class="gdlr-core-image-item-wrap gdlr-core-media-image gdlr-core-image-item-style-rectangle"
-                                                    style="border-width: 0px; max-width: 150px;">
-                                                    <img src="frontend/upload/icon05.png" alt="" width="271" height="140"
-                                                         title="icon05"/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="gdlr-core-pbf-element">
-                                            <div
-                                                class="gdlr-core-title-item gdlr-core-item-pdb clearfix gdlr-core-center-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr">
-                                                <div class="gdlr-core-title-item-title-wrap">
-                                                    <h3 class="gdlr-core-title-item-title gdlr-core-skin-title"
-                                                        style="font-size: 13px; font-weight: 500; letter-spacing: 4px; color: #aaaaaa;">
-                                                        Boxy<span
-                                                            class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
-                                                    </h3>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="gdlr-core-pbf-element">
-                                            <div
-                                                class="gdlr-core-divider-item gdlr-core-divider-item-normal gdlr-core-item-pdlr gdlr-core-center-align"
-                                                style="margin-bottom: 0px;">
-                                                <div class="gdlr-core-divider-container" style="max-width: 5px;">
-                                                    <div
-                                                        class="gdlr-core-divider-line gdlr-core-skin-divider"
-                                                        style="border-color: #d32525; border-width: 5px; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;"
-                                                    ></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="gdlr-core-pbf-column gdlr-core-column-10">
-                                <div class="gdlr-core-pbf-column-content-margin gdlr-core-js">
-                                    <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js">
-                                        <div class="gdlr-core-pbf-element">
-                                            <div
-                                                class="gdlr-core-image-item gdlr-core-item-pdb gdlr-core-center-align gdlr-core-item-pdlr"
-                                                style="padding-bottom: 15px;">
-                                                <div
-                                                    class="gdlr-core-image-item-wrap gdlr-core-media-image gdlr-core-image-item-style-rectangle"
-                                                    style="border-width: 0px; max-width: 150px;">
-                                                    <img src="frontend/upload/icon06.png" alt="" width="280" height="140"
-                                                         title="icon06"/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="gdlr-core-pbf-element">
-                                            <div
-                                                class="gdlr-core-title-item gdlr-core-item-pdb clearfix gdlr-core-center-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr">
-                                                <div class="gdlr-core-title-item-title-wrap">
-                                                    <h3 class="gdlr-core-title-item-title gdlr-core-skin-title"
-                                                        style="font-size: 13px; font-weight: 500; letter-spacing: 4px; color: #aaaaaa;">
-                                                        Corniz<span
-                                                            class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
-                                                    </h3>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="gdlr-core-pbf-element">
-                                            <div
-                                                class="gdlr-core-divider-item gdlr-core-divider-item-normal gdlr-core-item-pdlr gdlr-core-center-align"
-                                                style="margin-bottom: 0px;">
-                                                <div class="gdlr-core-divider-container" style="max-width: 5px;">
-                                                    <div
-                                                        class="gdlr-core-divider-line gdlr-core-skin-divider"
-                                                        style="border-color: #d32525; border-width: 5px; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;"
-                                                    ></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            @endforeach
+
                         </div>
                     </div>
                 </div>
@@ -2151,7 +1799,7 @@
                                                             class="gdlr-core-title-item-caption gdlr-core-info-font gdlr-core-skin-caption"
                                                             style="font-size: 14px; font-weight: 500; font-style: normal; letter-spacing: 3px; text-transform: uppercase; color: #d32525; margin-bottom: 0px;"
                                                         >
-                                                            {{$index_page->block_5['counter_1_text']}}
+                                                            {{$index_page->block_5['counter_2_text']}}
                                                         </span>
                                             </div>
                                         </div>

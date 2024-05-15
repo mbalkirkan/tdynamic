@@ -21,7 +21,8 @@ class DatabaseSeeder extends Seeder
 
         $this->call(UserTableSeeder::class);
         $this->call(SystemTableSeeder::class);
-        $this->call(HeaderTableSeeder::class);
+//        $this->call(HeaderTableSeeder::class);
         $this->call(IndexPageSeeder::class);
+//        $this->call(SliderTableSeeder::class);
     }
 }

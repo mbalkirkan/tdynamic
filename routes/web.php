@@ -44,6 +44,21 @@ Route::middleware(['auth'])
         Route::get('/header', [\App\Http\Controllers\Component\HeaderController::class, 'index'])->name('header');
         Route::post('/header/update', [\App\Http\Controllers\Component\HeaderController::class, 'update'])->name('header.update');
 
+        // portfolio
+
+        Route::get('/portfolio', [\App\Http\Controllers\Component\PortfolioController::class, 'index'])->name('portfolio');
+        Route::get('/portfolio/get', [\App\Http\Controllers\Component\PortfolioController::class, 'get'])->name('portfolio.get');
+        Route::post('/portfolio/add', [\App\Http\Controllers\Component\PortfolioController::class, 'add'])->name('portfolio.add');
+        Route::post('/portfolio/update', [\App\Http\Controllers\Component\PortfolioController::class, 'update'])->name('portfolio.update');
+        Route::get('/portfolio/delete/{id}', [\App\Http\Controllers\Component\PortfolioController::class, 'delete'])->name('portfolio.delete');
+
+
+        // reference
+
+        Route::get('/reference', [\App\Http\Controllers\Component\ReferenceController::class, 'index'])->name('reference');
+        Route::post('/reference/add', [\App\Http\Controllers\Component\ReferenceController::class, 'add'])->name('reference.add');
+        Route::get('/reference/delete/{id}', [\App\Http\Controllers\Component\ReferenceController::class, 'delete'])->name('reference.delete');
+
 
 
 });
