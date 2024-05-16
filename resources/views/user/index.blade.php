@@ -1294,7 +1294,7 @@
                                     <div class="gdlr-core-pbf-background-wrap" style="background-color: #ffffff;">
                                         <div
                                             class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js"
-                                            style="background-image: {{asset('frontend/upload/circle00.jpg')}}; background-size: cover; background-position: center;"
+                                            style="background-image: url({{asset('frontend/upload/circle00.jpg')}}); background-size: cover; background-position: center;"
                                             data-parallax-speed="0"
                                         ></div>
                                     </div>
@@ -1372,7 +1372,7 @@
                                     <div class="gdlr-core-pbf-background-wrap" style="background-color: #ffffff;">
                                         <div
                                             class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js"
-                                            style="background-image: {{asset('frontend/upload/circle00.jpg')}}; background-size: cover; background-position: center;"
+                                            style="background-image: url({{asset('frontend/upload/circle00.jpg')}}); background-size: cover; background-position: center;"
                                             data-parallax-speed="0"
                                         ></div>
                                     </div>
@@ -1450,7 +1450,7 @@
                                     <div class="gdlr-core-pbf-background-wrap" style="background-color: #ffffff;">
                                         <div
                                             class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js"
-                                            style="background-image: {{asset('frontend/upload/circle00.jpg')}}; background-size: cover; background-position: center;"
+                                            style="background-image: url({{asset('frontend/upload/circle00.jpg')}}); background-size: cover; background-position: center;"
                                             data-parallax-speed="0"
                                         ></div>
                                     </div>
